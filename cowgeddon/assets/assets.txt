@@ -4,7 +4,7 @@ a:music/forest-ambient.ogg:music/forest-ambient-5e6f7ea7906b7f48297d4305aa6a6760
 a:music/game-theme.ogg:music/game-theme-ad31746c5821ddbb0a60e7e90a55e812.ogg:2514729:application/unknown:1
 a:music/menu-theme.ogg:music/menu-theme-b5025e5319c3063e4f0c177bc8b39798.ogg:1730842:application/unknown:1
 d:orig:orig:0:application/unknown:1
-t:orig/pack.atlas:orig/pack-df7c495621a3ea3595ff9a6479dad2b4.atlas:18334:application/unknown:1
+t:orig/pack.atlas:orig/pack-a973c39a6d55568eb7265affc71ef462.atlas:19643:application/unknown:1
 i:orig/pack.png:orig/pack-e07a4c6f290e3729b564322b238f3f38.png:121625:image/png:1
 d:orig/spine_animations:orig/spine_animations:0:application/unknown:1
 d:particles:particles:0:application/unknown:1
