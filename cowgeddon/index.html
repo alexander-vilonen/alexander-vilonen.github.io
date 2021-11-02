@@ -9,7 +9,7 @@
 	<script>
 		vkBridge.send('VKWebAppInit');
 		var showAdsOrRate = function() {
-			bridge.send("VKWebAppShowNativeAds", {ad_format:"preloader"})
+			vkBridge.send("VKWebAppShowNativeAds", {ad_format:"preloader"})
 			.then(data => console.log(data.result))
 			.catch(error => console.log(error));
 		};
