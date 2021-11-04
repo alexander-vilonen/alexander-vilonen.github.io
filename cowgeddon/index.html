@@ -21,6 +21,12 @@
 			.then(data => console.log(data.success))
 			.catch(error => console.log(error));
 		};
+		
+		var shareOnWall = function(message) {
+			vkBridge.send("VKWebAppShowWallPostBox", {
+			  "message": message
+			});
+		};
 	</script>
 </head>
 
