@@ -13,6 +13,14 @@
 			.then(data => console.log(data.result))
 			.catch(error => console.log(error));
 		};
+		var addToWishlist = function() {
+			vkBridge.send("VKWebAppAddToFavorites");
+		};
+		var addFriends = function() {
+			vkBridge.send("VKWebAppShowInviteBox", {})
+			.then(data => console.log(data.success))
+			.catch(error => console.log(error));
+		};
 	</script>
 </head>
 
