@@ -1,0 +1,18 @@
+menuDisable.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menuDisable0001
+  rotate: false
+  xy: 0,0
+  size: 22,22
+  orig: 22,22
+  offset: 0,0
+  index: -1
+menuDisable0002
+  rotate: false
+  xy: 22,0
+  size: 22,22
+  orig: 22,22
+  offset: 0,0
+  index: -1

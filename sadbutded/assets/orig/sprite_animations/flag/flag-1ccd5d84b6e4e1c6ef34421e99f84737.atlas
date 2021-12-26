@@ -1,0 +1,60 @@
+flag.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+flag0
+  rotate: false
+  xy: 0,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag1
+  rotate: false
+  xy: 22,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag2
+  rotate: false
+  xy: 44,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag3
+  rotate: false
+  xy: 66,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag4
+  rotate: false
+  xy: 88,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag5
+  rotate: false
+  xy: 110,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag6
+  rotate: false
+  xy: 132,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1
+flag7
+  rotate: false
+  xy: 154,0
+  size: 22,32
+  orig: 22,32
+  offset: 0,0
+  index: -1

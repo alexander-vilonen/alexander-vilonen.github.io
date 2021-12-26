@@ -1,0 +1,67 @@
+bounceTile.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bounceTile0001
+  rotate: false
+  xy: 0,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0002
+  rotate: false
+  xy: 32,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0003
+  rotate: false
+  xy: 64,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0004
+  rotate: false
+  xy: 96,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0005
+  rotate: false
+  xy: 128,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0006
+  rotate: false
+  xy: 160,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0007
+  rotate: false
+  xy: 192,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0008
+  rotate: false
+  xy: 224,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+bounceTile0009
+  rotate: false
+  xy: 256,0
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1

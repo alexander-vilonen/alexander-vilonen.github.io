@@ -1,0 +1,33 @@
+star.png
+size: 6,6
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+star0001
+  rotate: false
+  xy: 0,0
+  size: 6,6
+  orig: 6,6
+  offset: 0,0
+  index: -1
+star0002
+  rotate: false
+  xy: 6,0
+  size: 6,6
+  orig: 6,6
+  offset: 0,0
+  index: -1
+star0003
+  rotate: false
+  xy: 12,0
+  size: 6,6
+  orig: 6,6
+  offset: 0,0
+  index: -1
+star0004
+  rotate: false
+  xy: 18,0
+  size: 6,6
+  orig: 6,6
+  offset: 0,0
+  index: -1
