@@ -6,13 +6,13 @@ b:freetypefonts/Grungeldana.ttf:freetypefonts/Grungeldana-982df89dee8769ea7f4963
 b:freetypefonts/Pixel Digivolve Cyrillic.ttf:freetypefonts/Pixel Digivolve Cyrillic-19d24a869976d1515333c9d24bf6de4e.ttf:25868:application/unknown:1
 b:freetypefonts/uni0553-webfont.ttf:freetypefonts/uni0553-webfont-97df4b980dbbe69e836f9591d846bbb7.ttf:138460:application/unknown:1
 d:i18n:i18n:0:application/unknown:1
-b:i18n/MessageResources.properties:i18n/MessageResources-d9a7e96d9b5518d749a2527d2caa8754.properties:3586:application/unknown:1
+b:i18n/MessageResources.properties:i18n/MessageResources-90030cf6a6bbd67b63c18d75679969d9.properties:3649:application/unknown:1
 b:i18n/MessageResources_de.properties:i18n/MessageResources_de-88a689749620fb7d9863c5ae1832ef3b.properties:3797:application/unknown:1
 b:i18n/MessageResources_es.properties:i18n/MessageResources_es-74ae981b8cbe693e2f9621a11a0a7b30.properties:3983:application/unknown:1
 b:i18n/MessageResources_fr.properties:i18n/MessageResources_fr-1883fb2f3cf76a59df4b3f2edd5f8571.properties:3793:application/unknown:1
 b:i18n/MessageResources_it.properties:i18n/MessageResources_it-91ea99628568ed44e818a3e71563f0c5.properties:3740:application/unknown:1
 b:i18n/MessageResources_pt.properties:i18n/MessageResources_pt-98b345c46b986243a3c7930ccf90c6ce.properties:3986:application/unknown:1
-b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-1ef693d11b35eb331428b5fb927eb966.properties:4837:application/unknown:1
+b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-47b243ccdb516356d6766dc6b1d51926.properties:4941:application/unknown:1
 b:i18n/MessageResources_tr.properties:i18n/MessageResources_tr-2c3175491865c62ae45a4eece7e20dbe.properties:3736:application/unknown:1
 d:icon:icon:0:application/unknown:1
 i:icon/cursor.png:icon/cursor-8c020ffff2868026bf6d2d539a271518.png:359:image/png:1
@@ -25,8 +25,8 @@ a:music/afternoon-ambient-piano-solo.ogg:music/afternoon-ambient-piano-solo-096b
 a:music/jazzy-ambient-piano-mansion.ogg:music/jazzy-ambient-piano-mansion-5310d10c3b1fe9c62e9461f8f1523842.ogg:1588214:application/unknown:1
 a:music/significana22.ogg:music/significana22-6c0bfb08bcfc212660e27e4f3becfc3b.ogg:792961:application/unknown:1
 d:orig:orig:0:application/unknown:1
-t:orig/pack.atlas:orig/pack-f4d2cdb38623781a21534228a8ee4ccd.atlas:12024:application/unknown:1
-i:orig/pack.png:orig/pack-b2fcbe0ef95e8840bce93a359982aa7d.png:68805:image/png:1
+t:orig/pack.atlas:orig/pack-e90dcadaa5fe9b1128f878ff3b432fb4.atlas:12697:application/unknown:1
+i:orig/pack.png:orig/pack-d5cc6fd4154ae2bd9d49b80a423d9afa.png:71006:image/png:1
 d:orig/spine_animations:orig/spine_animations:0:application/unknown:1
 d:orig/spriter_animations:orig/spriter_animations:0:application/unknown:1
 d:orig/sprite_animations:orig/sprite_animations:0:application/unknown:1
@@ -167,7 +167,7 @@ b:scenes/MainScene.dt:scenes/MainScene-6d38f1dda8daa45d3cfaba59d30a7ab4.dt:5211:
 b:scenes/mayhem.dt:scenes/mayhem-dd19bb49d730136a973f6bd2b820938e.dt:7806:application/unknown:1
 b:scenes/mcqueen.dt:scenes/mcqueen-5234666702f24a4c321262a4d2a6d068.dt:17023:application/unknown:1
 b:scenes/menu.dt:scenes/menu-9c9d322faebab336fd69040ddcacc96c.dt:19337:application/unknown:1
-b:scenes/menu_gwt.dt:scenes/menu_gwt-f42a41827e9e5bc4fe4aadb453b6486e.dt:7308:application/unknown:1
+b:scenes/menu_gwt.dt:scenes/menu_gwt-b87d463920a0891d156bfc52d62e908d.dt:8927:application/unknown:1
 b:scenes/menu_mobile.dt:scenes/menu_mobile-166d89c0595214f42f8c4ac1dce5bbe7.dt:7177:application/unknown:1
 b:scenes/mix1.dt:scenes/mix1-da31e5abf5484993b85b835c26d1d906.dt:393:application/unknown:1
 b:scenes/moon.dt:scenes/moon-138b6fb52e7be664f62a3c3f7cb55972.dt:6012:application/unknown:1
