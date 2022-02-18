@@ -1,0 +1,127 @@
+pack.png
+	size: 2048, 1024
+	filter: Linear, Linear
+0_digit
+	bounds: 1735, 959, 64, 64
+1_digit
+	bounds: 1283, 428, 64, 64
+2_digit
+	bounds: 1801, 959, 64, 64
+3_digit
+	bounds: 1283, 362, 64, 64
+4_digit
+	bounds: 1867, 959, 64, 64
+5_digit
+	bounds: 1933, 959, 64, 64
+6_digit
+	bounds: 1283, 296, 64, 64
+7_digit
+	bounds: 453, 187, 64, 64
+8_digit
+	bounds: 519, 187, 64, 64
+9_digit
+	bounds: 599, 237, 64, 64
+add_friends
+	bounds: 1385, 837, 40, 40
+b_6gran
+	bounds: 249, 201, 100, 100
+b_8gran
+	bounds: 1283, 675, 100, 100
+b_bob
+	bounds: 1, 7, 100, 46
+b_diam
+	bounds: 1531, 923, 100, 100
+b_hint
+	bounds: 213, 159, 40, 40
+b_menu
+	bounds: 731, 261, 40, 40
+b_music
+	bounds: 1429, 881, 64, 40
+b_no
+	bounds: 147, 159, 64, 40
+b_option
+	bounds: 1283, 494, 78, 77
+b_sound
+	bounds: 665, 261, 64, 40
+b_star
+	bounds: 351, 201, 100, 100
+b_trap
+	bounds: 1283, 573, 100, 100
+b_triangle
+	bounds: 1633, 923, 100, 100
+b_yes
+	bounds: 1495, 881, 64, 40
+body01
+	bounds: 1, 55, 100, 100
+	split: 23, 23, 23, 24
+	pad: 0, 0, 0, 0
+body_b
+	bounds: 1999, 983, 40, 40
+	split: 17, 16, 15, 15
+	pad: 0, 0, 0, 0
+body_b_round
+	bounds: 1, 157, 144, 144
+body_b_square
+	bounds: 1283, 879, 144, 144
+body_m
+	bounds: 147, 201, 100, 100
+body_r_square
+	bounds: 1429, 923, 100, 100
+body_round
+	bounds: 1283, 777, 100, 100
+chick
+	bounds: 1349, 482, 10, 10
+eye
+	index: 0
+	bounds: 585, 239, 12, 12
+eye
+	index: 1
+	bounds: 585, 225, 12, 12
+foot
+	index: 0
+	bounds: 665, 243, 16, 16
+foot
+	index: 5
+	bounds: 665, 243, 16, 16
+foot
+	index: 1
+	bounds: 155, 89, 16, 16
+foot
+	index: 4
+	bounds: 155, 89, 16, 16
+foot
+	index: 2
+	bounds: 207, 141, 16, 16
+foot
+	index: 3
+	bounds: 207, 141, 16, 16
+foot
+	index: 6
+	bounds: 1385, 819, 16, 16
+foot
+	index: 9
+	bounds: 1385, 819, 16, 16
+foot
+	index: 7
+	bounds: 1999, 965, 16, 16
+foot
+	index: 8
+	bounds: 1999, 965, 16, 16
+ground
+	bounds: 1, 303, 1280, 720
+menu_cross
+	bounds: 103, 105, 50, 50
+menu_home
+	bounds: 103, 53, 50, 50
+menu_next
+	bounds: 103, 1, 50, 50
+menu_restart
+	bounds: 155, 107, 50, 50
+particle
+	bounds: 1363, 551, 20, 20
+popup_r
+	bounds: 1735, 933, 24, 24
+shadow
+	bounds: 453, 253, 144, 48
+wishlist
+	bounds: 1561, 881, 40, 40
