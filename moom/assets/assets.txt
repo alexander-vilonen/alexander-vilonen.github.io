@@ -3,8 +3,8 @@ d:freetypefonts:freetypefonts:0:application/unknown:1
 b:freetypefonts/monof55.ttf:freetypefonts/monof55-fc3da44724480f201b48bba4d9b26dd6.ttf:169452:application/unknown:1
 b:freetypefonts/monofur.ttf:freetypefonts/monofur-fc3da44724480f201b48bba4d9b26dd6.ttf:169452:application/unknown:1
 d:i18n:i18n:0:application/unknown:1
-b:i18n/MessageResources.properties:i18n/MessageResources-edaf60d4e7df602411947181cca47ee8.properties:2245:application/unknown:1
-b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-7a5b568f3e070bee39ab4a526c1d8265.properties:3409:application/unknown:1
+b:i18n/MessageResources.properties:i18n/MessageResources-4a46dbcd9fa5e2c56cdcbf328b11e723.properties:2527:application/unknown:1
+b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-46283e4173c5783dc7f0018657279fd7.properties:3967:application/unknown:1
 d:music:music:0:application/unknown:1
 a:music/menu.ogg:music/menu-6549406c0872d020179ea27559e70858.ogg:1732498:application/unknown:1
 a:music/theme01.ogg:music/theme01-8222b6901e29300a6bc56eebe38fa2f9.ogg:2156978:application/unknown:1
@@ -16,7 +16,7 @@ i:orig/pack.png:orig/pack-ea5d6b9ba53f6036f946948eec135d5d.png:93125:image/png:1
 d:orig/spine_animations:orig/spine_animations:0:application/unknown:1
 d:particles:particles:0:application/unknown:1
 b:particles/firework.p:particles/firework-f724029327e232297791c71d4375ea69.p:7505:application/unknown:1
-b:project.dt:project-43163d2f54177f98ebf35ad0915c842f.dt:17514:application/unknown:1
+b:project.dt:project-f8175ed91bf0cd45fbcbdbab4c3d87a9.dt:20333:application/unknown:1
 d:scenes:scenes:0:application/unknown:1
 b:scenes/colors.dt:scenes/colors-46ee11711eaac40bd55b42559683f620.dt:25196:application/unknown:1
 b:scenes/dialog.dt:scenes/dialog-57235865dbd6dc1dba564736b0a559f7.dt:27556:application/unknown:1
