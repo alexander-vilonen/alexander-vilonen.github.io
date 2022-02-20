@@ -6,10 +6,10 @@ d:i18n:i18n:0:application/unknown:1
 b:i18n/MessageResources.properties:i18n/MessageResources-4a46dbcd9fa5e2c56cdcbf328b11e723.properties:2527:application/unknown:1
 b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-46283e4173c5783dc7f0018657279fd7.properties:3967:application/unknown:1
 d:music:music:0:application/unknown:1
-a:music/menu.ogg:music/menu-6549406c0872d020179ea27559e70858.ogg:1732498:application/unknown:1
-a:music/theme01.ogg:music/theme01-8222b6901e29300a6bc56eebe38fa2f9.ogg:2156978:application/unknown:1
-a:music/theme02.ogg:music/theme02-e388982f2a98dc11b90fbba335187578.ogg:2435768:application/unknown:1
-a:music/theme03.ogg:music/theme03-3e5be0f0e0aa0d496a95134045622eb2.ogg:2607702:application/unknown:1
+a:music/menu.mp3:music/menu-4add649443a19441c1e900b79a141518.mp3:439927:application/unknown:1
+a:music/theme01.mp3:music/theme01-9d04104eb3f5d0f12c6bad9f75392b66.mp3:439300:application/unknown:1
+a:music/theme02.mp3:music/theme02-6b05896877ab4ffa23d98058e33c690a.mp3:494261:application/unknown:1
+a:music/theme03.mp3:music/theme03-9d33e48006cede19a5c2c8d0f903e004.mp3:528534:application/unknown:1
 d:orig:orig:0:application/unknown:1
 t:orig/pack.atlas:orig/pack-8e0dac404ce81c38cdf11dc6a16ecd31.atlas:2112:application/unknown:1
 i:orig/pack.png:orig/pack-ea5d6b9ba53f6036f946948eec135d5d.png:93125:image/png:1
@@ -54,9 +54,9 @@ b:scenes/time.dt:scenes/time-07eb3a2e32572028601418e5727f1ac1.dt:43412:applicati
 b:scenes/tired.dt:scenes/tired-aa05e744fe438b8ca8266758a482ce49.dt:42593:application/unknown:1
 b:scenes/win.dt:scenes/win-4dfaafdea7289262168deaa2f603c0ad.dt:44629:application/unknown:1
 d:sound:sound:0:application/unknown:1
-a:sound/lose.ogg:sound/lose-6c56104ca3025bda51b24df67d2c3bb1.ogg:95795:application/unknown:1
+a:sound/lose.mp3:sound/lose-e03043e410886a3cbff452a98a1e8e97.mp3:33982:application/unknown:1
 a:sound/select.wav:sound/select-8069419b6a44e1685a18e5edf46c6a4e.wav:9308:audio/x-wav:1
-a:sound/win.ogg:sound/win-49d858bceabdaf93b94b61a481d0a2f3.ogg:238293:application/unknown:1
+a:sound/win.mp3:sound/win-a9ac78f8b7db5f38aa9a1d0d6e9ee764.mp3:64911:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:particles.fragment-b90524761fdf09b0a836056d590c30b8.glsl:820:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:particles.vertex-f25b8b2fae10b9bfa09bfdd484923148.glsl:2886:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:default.fragment-e1c018bd48044c8b67c7bbc53145e540.glsl:5874:application/unknown:1
