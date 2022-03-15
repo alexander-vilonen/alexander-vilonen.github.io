@@ -1,0 +1,47 @@
+third.png
+	size: 4096, 1024
+	filter: Linear, Linear
+level8_ball1
+	bounds: 3205, 248, 29, 102
+level8_ball10
+	bounds: 3390, 932, 97, 91
+level8_ball2
+	bounds: 3270, 653, 31, 62
+level8_ball3
+	bounds: 3205, 162, 33, 84
+level8_ball4
+	bounds: 3244, 642, 24, 73
+level8_ball5
+	bounds: 3489, 946, 43, 77
+level8_ball6
+	bounds: 3205, 717, 64, 172
+level8_ball7
+	bounds: 3271, 765, 59, 124
+level8_ball8
+	bounds: 3534, 957, 47, 66
+level8_ball9
+	bounds: 3332, 770, 53, 119
+level8_main
+	bounds: 1, 123, 1600, 900
+level9_ball1
+	bounds: 1, 9, 82, 112
+level9_ball10
+	bounds: 3271, 717, 51, 46
+level9_ball2
+	bounds: 85, 33, 71, 49
+level9_ball3
+	bounds: 3205, 352, 36, 103
+level9_ball4
+	bounds: 3205, 891, 183, 132
+level9_ball5
+	bounds: 3205, 566, 37, 149
+level9_ball6
+	bounds: 85, 1, 89, 30
+level9_ball7
+	bounds: 3583, 977, 60, 46
+level9_ball8
+	bounds: 3205, 457, 52, 107
+level9_ball9
+	bounds: 85, 84, 125, 37
+level9_main
+	bounds: 1603, 123, 1600, 900

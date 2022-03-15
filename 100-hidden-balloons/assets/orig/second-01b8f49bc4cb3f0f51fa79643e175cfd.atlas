@@ -1,0 +1,99 @@
+second.png
+	size: 4096, 4096
+	filter: Linear, Linear
+level4_ball1
+	bounds: 3615, 3998, 72, 93
+level4_ball10
+	bounds: 486, 380, 56, 61
+level4_ball2
+	bounds: 48, 269, 66, 128
+level4_ball3
+	bounds: 3205, 3041, 26, 47
+level4_ball4
+	bounds: 3751, 4003, 60, 88
+level4_ball5
+	bounds: 417, 379, 67, 62
+level4_ball6
+	bounds: 642, 446, 21, 37
+level4_ball7
+	bounds: 3421, 4009, 94, 82
+level4_ball8
+	bounds: 3813, 4004, 61, 87
+level4_ball9
+	bounds: 3285, 3915, 112, 90
+level4_main
+	bounds: 1, 3191, 1600, 900
+level4_shadow
+	bounds: 1, 2289, 1600, 900
+level5_ball1
+	bounds: 3205, 3425, 49, 84
+level5_ball10
+	bounds: 3876, 4007, 64, 84
+level5_ball2
+	bounds: 3205, 3221, 43, 62
+level5_ball3
+	bounds: 3942, 3999, 52, 92
+level5_ball4
+	bounds: 3285, 4007, 134, 84
+level5_ball5
+	bounds: 3205, 3157, 38, 62
+level5_ball6
+	bounds: 3205, 3090, 31, 65
+level5_ball7
+	bounds: 48, 230, 53, 37
+level5_ball8
+	bounds: 49, 180, 25, 48
+level5_ball9
+	bounds: 246, 383, 84, 100
+level5_main
+	bounds: 1603, 3191, 1600, 900
+level5_shadow
+	bounds: 1, 1387, 1600, 900
+level6_ball1
+	bounds: 3205, 3903, 78, 188
+level6_ball10
+	bounds: 116, 355, 21, 42
+level6_ball2
+	bounds: 3205, 3745, 58, 156
+level6_ball3
+	bounds: 1, 1, 47, 95
+level6_ball4
+	bounds: 332, 393, 83, 90
+level6_ball5
+	bounds: 603, 429, 37, 54
+level6_ball6
+	bounds: 140, 391, 104, 92
+level6_ball7
+	bounds: 1, 98, 46, 130
+level6_ball8
+	bounds: 3205, 3511, 38, 92
+level6_ball9
+	bounds: 1, 399, 137, 84
+level6_main
+	bounds: 1603, 2289, 1600, 900
+level6_shadow
+	bounds: 1, 485, 1600, 900
+level7_ball1
+	bounds: 3996, 4011, 56, 80
+level7_ball10
+	bounds: 1, 230, 45, 167
+level7_ball2
+	bounds: 3205, 3285, 45, 65
+level7_ball3
+	bounds: 3205, 3605, 41, 138
+level7_ball4
+	bounds: 3689, 3991, 60, 100
+level7_ball5
+	bounds: 3205, 3352, 44, 71
+level7_ball6
+	bounds: 4054, 4027, 39, 64
+level7_ball7
+	bounds: 549, 427, 52, 56
+level7_ball8
+	bounds: 3517, 4015, 96, 76
+level7_ball9
+	bounds: 417, 443, 130, 40
+level7_main
+	bounds: 1603, 1387, 1600, 900
+level7_shadow
+	bounds: 1603, 485, 1600, 900
