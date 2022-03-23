@@ -1,0 +1,182 @@
+pack.png
+	size: 4096, 4096
+	filter: Linear, Linear
+b_menu
+	bounds: 3355, 3002, 40, 40
+b_no
+	bounds: 706, 214, 64, 40
+b_yes
+	bounds: 617, 54, 64, 40
+border
+	bounds: 1075, 362, 48, 48
+	split: 18, 18, 16, 15
+border2
+	bounds: 1125, 362, 48, 48
+	split: 15, 16, 15, 14
+friends
+	bounds: 2666, 429, 66, 58
+hint
+	bounds: 2462, 410, 63, 77
+hint_circle
+	bounds: 3435, 3452, 129, 129
+hudback
+	bounds: 554, 208, 150, 150
+hudmenubtn
+	bounds: 3435, 3152, 70, 70
+leve2_ball1
+	bounds: 3205, 2805, 46, 165
+leve2_ball10
+	bounds: 3951, 4019, 112, 76
+leve2_ball2
+	bounds: 3892, 3879, 41, 110
+leve2_ball3
+	bounds: 813, 272, 91, 86
+leve2_ball4
+	bounds: 3205, 2569, 45, 106
+leve2_ball5
+	bounds: 3565, 3349, 49, 101
+leve2_ball6
+	bounds: 2173, 422, 111, 65
+leve2_ball7
+	bounds: 706, 256, 105, 102
+leve2_ball8
+	bounds: 3205, 2431, 41, 68
+leve2_ball9
+	bounds: 3205, 2501, 45, 66
+leve2_main
+	bounds: 1, 3195, 1600, 900
+leve2_shadow
+	bounds: 1, 2293, 1600, 900
+level0_ball1
+	bounds: 554, 53, 61, 153
+level0_ball10
+	bounds: 3683, 3513, 32, 68
+level0_ball2
+	bounds: 3205, 3153, 228, 428
+level0_ball3
+	bounds: 3435, 3224, 66, 99
+level0_ball4
+	bounds: 3634, 3476, 47, 105
+level0_ball5
+	bounds: 3205, 2972, 98, 179
+level0_ball6
+	bounds: 2384, 422, 76, 65
+level0_ball7
+	bounds: 3253, 2772, 35, 81
+level0_ball8
+	bounds: 554, 1, 77, 50
+level0_ball9
+	bounds: 917, 364, 104, 46
+level0_continue
+	bounds: 1549, 421, 622, 66
+level0_main
+	bounds: 1603, 3195, 1600, 900
+level0_new_game
+	bounds: 1, 360, 914, 127
+level0_shadow
+	bounds: 1, 1391, 1600, 900
+level0_title1
+	bounds: 1, 16, 551, 342
+level0_title2_rus
+	bounds: 917, 412, 630, 75
+level1_additionals
+	bounds: 1603, 2293, 1600, 900
+level1_ball1
+	bounds: 3205, 2677, 46, 126
+level1_ball10
+	bounds: 3836, 3991, 113, 104
+level1_ball2
+	bounds: 3355, 3044, 65, 107
+level1_ball3
+	bounds: 3772, 3679, 53, 142
+level1_ball4
+	bounds: 617, 96, 77, 110
+level1_ball5
+	bounds: 2527, 410, 61, 77
+level1_ball6
+	bounds: 3566, 3452, 66, 129
+level1_ball7
+	bounds: 3305, 3002, 48, 149
+level1_ball8
+	bounds: 3435, 3325, 71, 125
+level1_ball9
+	bounds: 3719, 3584, 58, 65
+level1_main
+	bounds: 1, 489, 1600, 900
+level3_ball1
+	bounds: 3719, 3651, 51, 170
+level3_ball10
+	bounds: 3205, 1772, 39, 63
+level3_ball2
+	bounds: 3205, 2358, 38, 71
+level3_ball3
+	bounds: 2286, 433, 96, 54
+level3_ball4
+	bounds: 3508, 3347, 55, 103
+level3_ball5
+	bounds: 2852, 424, 52, 63
+level3_ball6
+	bounds: 2590, 436, 74, 51
+level3_ball7
+	bounds: 3836, 3848, 54, 141
+level3_ball8
+	bounds: 3253, 2855, 47, 115
+level3_ball9
+	bounds: 3205, 2290, 38, 66
+level3_main
+	bounds: 1603, 1391, 1600, 900
+level3_shadow
+	bounds: 1603, 489, 1600, 900
+line
+	index: 0
+	bounds: 2906, 423, 48, 64
+line
+	index: 12
+	bounds: 2906, 423, 48, 64
+line
+	index: 1
+	bounds: 2956, 423, 48, 64
+line
+	index: 2
+	bounds: 3006, 423, 48, 64
+line
+	index: 3
+	bounds: 3056, 423, 48, 64
+line
+	index: 4
+	bounds: 3106, 423, 48, 64
+line
+	index: 5
+	bounds: 3156, 423, 48, 64
+line
+	index: 6
+	bounds: 3205, 2224, 48, 64
+line
+	index: 7
+	bounds: 3205, 2158, 48, 64
+line
+	index: 8
+	bounds: 3205, 2092, 48, 64
+line
+	index: 9
+	bounds: 3205, 2026, 48, 64
+line
+	index: 10
+	bounds: 3205, 1960, 48, 64
+line
+	index: 11
+	bounds: 3205, 1894, 48, 64
+menu_cross
+	bounds: 633, 2, 50, 50
+menu_home
+	bounds: 1023, 360, 50, 50
+music
+	bounds: 3205, 1837, 51, 55
+next
+	bounds: 3719, 3823, 115, 272
+share-icon
+	bounds: 3205, 3583, 512, 512
+sound
+	bounds: 2792, 436, 58, 51
+wishlist
+	bounds: 2734, 431, 56, 56
