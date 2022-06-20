@@ -1,0 +1,33 @@
+pack.png
+	size: 2048, 1024
+	filter: Linear, Linear
+add panel
+	bounds: 989, 386, 214, 113
+button
+	bounds: 989, 753, 280, 250
+button_back
+	bounds: 989, 501, 280, 250
+circle
+	bounds: 1205, 448, 51, 51
+hint
+	bounds: 1271, 514, 155, 95
+invite
+	bounds: 1553, 857, 152, 146
+light
+	bounds: 178, 22, 135, 149
+option
+	bounds: 1, 1, 175, 170
+panel
+	bounds: 1, 173, 986, 830
+placeholder
+	bounds: 1271, 753, 280, 250
+play
+	bounds: 440, 46, 122, 125
+replay
+	bounds: 315, 27, 123, 144
+share
+	bounds: 989, 242, 142, 142
+sound
+	bounds: 1707, 880, 157, 123
+wishlist
+	bounds: 1271, 611, 166, 140
