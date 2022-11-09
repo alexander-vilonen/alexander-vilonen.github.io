@@ -1,0 +1,83 @@
+pack.png
+	size: 2048, 1024
+	filter: Linear, Linear
+aim
+	bounds: 1698, 30, 94, 99
+ammobox
+	bounds: 1817, 261, 181, 125
+assaultrifle
+	bounds: 447, 250, 362, 145
+background_tile
+	bounds: 1, 397, 798, 626
+bank_bonus
+	bounds: 1884, 31, 68, 98
+bank_upgrade
+	bounds: 1019, 171, 128, 128
+bomb_bonus
+	bounds: 1794, 33, 88, 96
+brick
+	bounds: 1147, 375, 48, 48
+button
+	bounds: 1, 15, 280, 250
+button_back
+	bounds: 1206, 291, 280, 250
+chick
+	bounds: 986, 204, 10, 10
+cloud1
+	bounds: 1821, 388, 203, 121
+cloud5
+	bounds: 1488, 266, 203, 121
+coin_bonus
+	bounds: 1887, 159, 96, 100
+coin_upgrade
+	bounds: 1438, 11, 128, 128
+damage_upgrade
+	bounds: 1568, 11, 128, 128
+invite
+	bounds: 1154, 65, 152, 146
+label
+	bounds: 1149, 213, 182, 76
+leaves
+	bounds: 801, 543, 689, 480
+menu_bullet
+	bounds: 643, 58, 164, 190
+music
+	bounds: 283, 93, 156, 172
+option
+	bounds: 809, 44, 175, 170
+pistol2
+	bounds: 283, 8, 125, 83
+pistol3
+	bounds: 811, 216, 206, 83
+play
+	bounds: 1693, 262, 122, 125
+play-button-green-icon
+	bounds: 1492, 511, 512, 512
+range_upgrade
+	bounds: 1757, 131, 128, 128
+ray
+	bounds: 441, 48, 200, 200
+revolver
+	bounds: 1636, 179, 119, 81
+share
+	bounds: 1333, 147, 142, 142
+shop
+	bounds: 1954, 93, 64, 64
+shotgun
+	bounds: 801, 425, 403, 116
+shotgun2
+	bounds: 811, 301, 334, 122
+small_bullet
+	bounds: 2006, 983, 16, 40
+small_coin
+	bounds: 1308, 1, 128, 138
+smg2
+	bounds: 1488, 389, 331, 120
+sniper2
+	bounds: 1, 267, 444, 128
+sound
+	bounds: 1477, 141, 157, 123
+white-pixel
+	bounds: 801, 422, 1, 1
+wishlist
+	bounds: 986, 29, 166, 140

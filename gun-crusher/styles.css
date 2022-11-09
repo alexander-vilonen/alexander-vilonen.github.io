@@ -1,0 +1,18 @@
+canvas {
+    cursor: default;
+    outline: none;
+}
+
+body {
+    background-color: #B5F2FF;
+}
+
+p {
+    text-align: center;
+    color: #eeeeee;
+}
+
+a {
+    text-align: center;
+    color: #bbbbff;
+}
