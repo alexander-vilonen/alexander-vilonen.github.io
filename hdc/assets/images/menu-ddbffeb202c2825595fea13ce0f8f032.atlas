@@ -1,0 +1,104 @@
+
+menu.png
+size: 2048, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+draws
+  rotate: false
+  xy: 805, 531
+  size: 311, 216
+  orig: 311, 216
+  offset: 0, 0
+  index: -1
+huggy
+  rotate: false
+  xy: 2, 2
+  size: 411, 530
+  orig: 411, 530
+  offset: 0, 0
+  index: -1
+level_background
+  rotate: false
+  xy: 956, 383
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+level_blocked
+  rotate: false
+  xy: 805, 380
+  size: 149, 149
+  orig: 149, 149
+  offset: 0, 0
+  index: -1
+level_button
+  rotate: false
+  xy: 1145, 919
+  size: 352, 103
+  orig: 352, 103
+  offset: 0, 0
+  index: -1
+level_scroll
+  rotate: false
+  xy: 1847, 931
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 415, 50
+  size: 105, 160
+  orig: 105, 160
+  offset: 0, 0
+  index: -1
+pencils
+  rotate: false
+  xy: 581, 335
+  size: 222, 687
+  orig: 222, 687
+  offset: 0, 0
+  index: -1
+pl1
+  rotate: false
+  xy: 1499, 934
+  size: 346, 88
+  orig: 346, 88
+  offset: 0, 0
+  index: -1
+pl2
+  rotate: false
+  xy: 415, 212
+  size: 72, 320
+  orig: 72, 320
+  offset: 0, 0
+  index: -1
+pl3
+  rotate: false
+  xy: 489, 248
+  size: 72, 284
+  orig: 72, 284
+  offset: 0, 0
+  index: -1
+play_button
+  rotate: false
+  xy: 1145, 811
+  size: 343, 106
+  orig: 343, 106
+  offset: 0, 0
+  index: -1
+splash1
+  rotate: false
+  xy: 805, 749
+  size: 338, 273
+  orig: 338, 273
+  offset: 0, 0
+  index: -1
+splash2
+  rotate: false
+  xy: 2, 534
+  size: 577, 488
+  orig: 577, 488
+  offset: 0, 0
+  index: -1

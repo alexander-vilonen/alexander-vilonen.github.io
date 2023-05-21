@@ -1,0 +1,182 @@
+<levels>
+    <level>
+		<id>1</id>
+		<title>1</title>
+		<img>images/level/steve.png</img>
+		<ai-difficult>1</ai-difficult>
+		<ai-speed>200</ai-speed>
+		<before-msg>before_level1_1;before_level1_2;before_level1_3</before-msg>
+		<after-msg>after_level1</after-msg>
+	</level>
+
+	<level>
+		<id>2</id>
+		<title>2</title>
+		<img>images/level/pig.png</img>
+		<ai-difficult>1</ai-difficult>
+		<ai-speed>250</ai-speed>
+		<ai-actions>ONE_PIXEL</ai-actions>
+		<before-msg>before_level2_1</before-msg>
+		<after-msg>after_level2</after-msg>
+	</level>
+
+	<level>
+		<id>3</id>
+		<title>3</title>
+		<img>images/level/hulk.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>250</ai-speed>
+		<ai-actions>ONE_PIXEL</ai-actions>
+	</level>
+
+	<level>
+		<id>4</id>
+		<title>4</title>
+		<img>images/level/mushroom.png</img>
+		<ai-difficult>1</ai-difficult>
+		<ai-speed>250</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>5</id>
+		<title>5</title>
+		<img>images/level/pokeball.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>250</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>6</id>
+		<title>6</title>
+		<img>images/level/loh.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>280</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>7</id>
+		<title>7</title>
+		<img>images/level/amogus.png</img>
+		<ai-difficult>1</ai-difficult>
+		<ai-speed>400</ai-speed>
+	</level>
+
+	<level>
+		<id>8</id>
+		<title>8</title>
+		<img>images/level/duck.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>9</id>
+		<title>9</title>
+		<img>images/level/snake.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>10</id>
+		<title>10</title>
+		<img>images/level/crab.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>11</id>
+		<title>11</title>
+		<img>images/level/beard.png</img>
+		<ai-difficult>5</ai-difficult>
+		<ai-speed>100</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>12</id>
+		<title>12</title>
+		<img>images/level/cool_chicken.png</img>
+		<ai-difficult>1</ai-difficult>
+		<ai-speed>600</ai-speed>
+	</level>
+
+	<level>
+		<id>13</id>
+		<title>13</title>
+		<img>images/level/bro.png</img>
+		<ai-difficult>1.5</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>14</id>
+		<title>14</title>
+		<img>images/level/guy.png</img>
+		<ai-difficult>2</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>15</id>
+		<title>15</title>
+		<img>images/level/dear.png</img>
+		<ai-difficult>2</ai-difficult>
+		<ai-speed>350</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>16</id>
+		<title>16</title>
+		<img>images/level/pikachu.png</img>
+		<ai-difficult>2.5</ai-difficult>
+		<ai-speed>350</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>17</id>
+		<title>17</title>
+		<img>images/level/girl.png</img>
+		<ai-difficult>2</ai-difficult>
+		<ai-speed>400</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>18</id>
+		<title>18</title>
+		<img>images/level/rainbow.png</img>
+		<ai-difficult>3</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>19</id>
+		<title>19</title>
+		<img>images/level/sonic.png</img>
+		<ai-difficult>3</ai-difficult>
+		<ai-speed>300</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+
+	<level>
+		<id>20</id>
+		<title>20</title>
+		<img>images/level/superman.png</img>
+		<ai-difficult>3</ai-difficult>
+		<ai-speed>400</ai-speed>
+		<ai-actions>ONE_PIXEL,ONE_LINE</ai-actions>
+	</level>
+</levels>
