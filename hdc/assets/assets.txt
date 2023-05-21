@@ -14,8 +14,8 @@ b:i18n/MessageResources_en.properties:i18n/MessageResources_en-116e14569b2e50581
 b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-fc09e75e853eef8bb5e7b673cdb07696.properties:2365:application/unknown:1
 b:i18n/MessageResources_ru.properties.bak:i18n/MessageResources_ru.properties-e81555570af4609a5aad45d144dcb85f.bak:2345:application/unknown:1
 d:images:images:0:application/unknown:1
-t:images/game_atlas.atlas:images/game_atlas-f2bcd71cc80f7e4ddaab6fd52cec1a7b.atlas:2831:application/unknown:0
-i:images/game_atlas.png:images/game_atlas-4562aa6a8a7c3768d9a2d625b7a5472e.png:165660:image/png:0
+t:images/game_atlas.atlas:images/game_atlas-b42c0299f92e4fb8a2cdef65b33a52d5.atlas:2930:application/unknown:0
+i:images/game_atlas.png:images/game_atlas-2c902c1ee86dfe051fafe6d9e1e38195.png:166698:image/png:0
 d:images/level:images/level:0:application/unknown:1
 i:images/level/amogus.png:images/level/amogus-8d7c3bf81a34325b0da7bc70e06ec281.png:152:image/png:0
 i:images/level/beard.png:images/level/beard-16e04d6f29d53ab97aac20e6321490cf.png:171:image/png:0
@@ -37,8 +37,8 @@ i:images/level/snake.png:images/level/snake-d187a800607564abe996bdb5fbe682b3.png
 i:images/level/sonic.png:images/level/sonic-46bfd4c65e7d04f791581821e9f616f9.png:193:image/png:0
 i:images/level/steve.png:images/level/steve-d97617e97ef98e878d80e03b50294eea.png:142:image/png:0
 i:images/level/superman.png:images/level/superman-74526f590318938e74a1c49e9fb363a9.png:152:image/png:0
-t:images/menu.atlas:images/menu-ddbffeb202c2825595fea13ce0f8f032.atlas:1477:application/unknown:0
-i:images/menu.png:images/menu-438ec1e03ded8ff37b97484b14f752dd.png:475366:image/png:0
+t:images/menu.atlas:images/menu-89a32fb557ae87d8305797fc327d3efd.atlas:1685:application/unknown:0
+i:images/menu.png:images/menu-022d2508736624fcdba6cea023ebdd99.png:477293:image/png:0
 d:particles:particles:0:application/unknown:1
 b:particles/conf1:particles/conf1-986b10a2c76091973c81ed9bb9a9b792:6951:application/unknown:0
 b:particles/conf2:particles/conf2-986b10a2c76091973c81ed9bb9a9b792:6951:application/unknown:0

@@ -1,0 +1,209 @@
+
+game_atlas.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+a-arm-l
+  rotate: false
+  xy: 566, 795
+  size: 56, 78
+  orig: 56, 78
+  offset: 0, 0
+  index: -1
+a-arm-r
+  rotate: false
+  xy: 436, 616
+  size: 52, 101
+  orig: 52, 101
+  offset: 0, 0
+  index: -1
+a-body
+  rotate: false
+  xy: 332, 559
+  size: 102, 158
+  orig: 102, 158
+  offset: 0, 0
+  index: -1
+a-eyes
+  rotate: false
+  xy: 629, 936
+  size: 86, 49
+  orig: 86, 49
+  offset: 0, 0
+  index: -1
+a-foot-l
+  rotate: false
+  xy: 135, 222
+  size: 76, 49
+  orig: 76, 49
+  offset: 0, 0
+  index: -1
+a-foot-r
+  rotate: false
+  xy: 26, 159
+  size: 76, 57
+  orig: 76, 57
+  offset: 0, 0
+  index: -1
+a-forearm-l
+  rotate: false
+  xy: 332, 407
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+a-forearm-r
+  rotate: false
+  xy: 332, 472
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+a-hand-l
+  rotate: false
+  xy: 213, 229
+  size: 48, 42
+  orig: 48, 42
+  offset: 0, 0
+  index: -1
+a-hand-r
+  rotate: false
+  xy: 436, 559
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+a-head
+  rotate: false
+  xy: 332, 719
+  size: 162, 154
+  orig: 162, 154
+  offset: 0, 0
+  index: -1
+a-leg-l
+  rotate: false
+  xy: 2, 2
+  size: 63, 143
+  orig: 63, 143
+  offset: 0, 0
+  index: -1
+a-leg-r
+  rotate: false
+  xy: 496, 723
+  size: 68, 150
+  orig: 68, 150
+  offset: 0, 0
+  index: -1
+a-mouth
+  rotate: false
+  xy: 26, 218
+  size: 107, 53
+  orig: 107, 53
+  offset: 0, 0
+  index: -1
+b_hint
+  rotate: false
+  xy: 263, 231
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+b_menu
+  rotate: false
+  xy: 784, 982
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+b_music
+  rotate: false
+  xy: 717, 945
+  size: 64, 40
+  orig: 64, 40
+  offset: 0, 0
+  index: -1
+b_sound
+  rotate: false
+  xy: 629, 894
+  size: 64, 40
+  orig: 64, 40
+  offset: 0, 0
+  index: -1
+confetti
+  rotate: false
+  xy: 629, 987
+  size: 153, 35
+  orig: 153, 35
+  offset: 0, 0
+  index: -1
+menu_back_np
+  rotate: false
+  xy: 2, 147
+  size: 22, 726
+  orig: 22, 726
+  offset: 0, 0
+  index: -1
+menu_home
+  rotate: false
+  xy: 418, 507
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+menu_next
+  rotate: false
+  xy: 332, 303
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+menu_restart
+  rotate: false
+  xy: 566, 743
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+menu_share
+  rotate: false
+  xy: 332, 355
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+pen_background
+  rotate: false
+  xy: 26, 273
+  size: 100, 600
+  orig: 100, 600
+  offset: 0, 0
+  index: -1
+pen_color
+  rotate: false
+  xy: 230, 273
+  size: 100, 600
+  orig: 100, 600
+  offset: 0, 0
+  index: -1
+pen_shadow
+  rotate: false
+  xy: 128, 273
+  size: 100, 600
+  orig: 100, 600
+  offset: 0, 0
+  index: -1
+red_band
+  rotate: false
+  xy: 2, 875
+  size: 625, 147
+  orig: 625, 147
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 104, 189
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
