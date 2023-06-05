@@ -1,0 +1,146 @@
+
+menu.png
+size: 2048, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+difficult_frame
+  rotate: false
+  xy: 1847, 891
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+draws
+  rotate: false
+  xy: 805, 531
+  size: 311, 216
+  orig: 311, 216
+  offset: 0, 0
+  index: -1
+huggy
+  rotate: false
+  xy: 2, 2
+  size: 411, 530
+  orig: 411, 530
+  offset: 0, 0
+  index: -1
+huggy_easy
+  rotate: false
+  xy: 805, 322
+  size: 226, 207
+  orig: 226, 207
+  offset: 0, 0
+  index: -1
+huggy_hard
+  rotate: false
+  xy: 1033, 301
+  size: 218, 228
+  orig: 218, 228
+  offset: 0, 0
+  index: -1
+huggy_normal
+  rotate: false
+  xy: 563, 126
+  size: 218, 207
+  orig: 218, 207
+  offset: 0, 0
+  index: -1
+level_background
+  rotate: false
+  xy: 415, 64
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+level_blocked
+  rotate: false
+  xy: 783, 171
+  size: 149, 149
+  orig: 149, 149
+  offset: 0, 0
+  index: -1
+level_button
+  rotate: false
+  xy: 1145, 919
+  size: 352, 103
+  orig: 352, 103
+  offset: 0, 0
+  index: -1
+level_scroll
+  rotate: false
+  xy: 934, 229
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 1118, 587
+  size: 105, 160
+  orig: 105, 160
+  offset: 0, 0
+  index: -1
+menu_add_friends
+  rotate: false
+  xy: 563, 84
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+menu_wishlist
+  rotate: false
+  xy: 415, 22
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+pencils
+  rotate: false
+  xy: 581, 335
+  size: 222, 687
+  orig: 222, 687
+  offset: 0, 0
+  index: -1
+pl1
+  rotate: false
+  xy: 1499, 934
+  size: 346, 88
+  orig: 346, 88
+  offset: 0, 0
+  index: -1
+pl2
+  rotate: false
+  xy: 415, 212
+  size: 72, 320
+  orig: 72, 320
+  offset: 0, 0
+  index: -1
+pl3
+  rotate: false
+  xy: 489, 248
+  size: 72, 284
+  orig: 72, 284
+  offset: 0, 0
+  index: -1
+play_button
+  rotate: false
+  xy: 1145, 811
+  size: 343, 106
+  orig: 343, 106
+  offset: 0, 0
+  index: -1
+splash1
+  rotate: false
+  xy: 805, 749
+  size: 338, 273
+  orig: 338, 273
+  offset: 0, 0
+  index: -1
+splash2
+  rotate: false
+  xy: 2, 534
+  size: 577, 488
+  orig: 577, 488
+  offset: 0, 0
+  index: -1
