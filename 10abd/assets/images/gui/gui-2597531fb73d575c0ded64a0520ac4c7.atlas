@@ -1,0 +1,202 @@
+
+gui.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+click
+  rotate: false
+  xy: 2, 60
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 6
+click
+  rotate: false
+  xy: 304, 612
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 3
+click
+  rotate: false
+  xy: 590, 1112
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 8
+click
+  rotate: false
+  xy: 878, 1406
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 0
+click
+  rotate: false
+  xy: 1132, 1734
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 5
+click
+  rotate: false
+  xy: 304, 370
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 11
+click
+  rotate: false
+  xy: 590, 870
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 2
+click
+  rotate: false
+  xy: 1374, 1734
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 7
+click
+  rotate: false
+  xy: 1616, 1788
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 4
+click
+  rotate: false
+  xy: 1120, 1351
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 10
+click
+  rotate: false
+  xy: 878, 1164
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 9
+click
+  rotate: false
+  xy: 832, 922
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: 1
+cloud_background
+  rotate: false
+  xy: 2, 1442
+  size: 586, 586
+  orig: 586, 586
+  offset: 0, 0
+  index: -1
+cloud_timer
+  rotate: false
+  xy: 2, 854
+  size: 586, 586
+  orig: 586, 586
+  offset: 0, 0
+  index: -1
+dialog_ui
+  rotate: false
+  xy: 590, 1354
+  size: 286, 292
+  orig: 286, 292
+  offset: 0, 0
+  index: -1
+home_button
+  rotate: false
+  xy: 1362, 1511
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+lose_label.png
+  rotate: false
+  xy: 1132, 1976
+  size: 435, 52
+  orig: 435, 52
+  offset: 0, 0
+  index: -1
+menu_back
+  rotate: false
+  xy: 590, 1648
+  size: 540, 380
+  orig: 540, 380
+  offset: 0, 0
+  index: -1
+menu_button
+  rotate: false
+  xy: 1120, 1271
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+menu_close_button
+  rotate: false
+  xy: 2, 2
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+menu_label
+  rotate: false
+  xy: 1132, 1593
+  size: 312, 70
+  orig: 312, 70
+  offset: 0, 0
+  index: -1
+music_button
+  rotate: false
+  xy: 1858, 1866
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+next_button
+  rotate: false
+  xy: 1858, 1946
+  size: 80, 82
+  orig: 80, 82
+  offset: 0, 0
+  index: -1
+profile
+  rotate: false
+  xy: 2, 302
+  size: 300, 550
+  orig: 300, 550
+  offset: 0, 0
+  index: -1
+restart_button
+  rotate: false
+  xy: 1362, 1431
+  size: 76, 78
+  orig: 76, 78
+  offset: 0, 0
+  index: -1
+sound_button
+  rotate: false
+  xy: 1940, 1950
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+triangle-32
+  rotate: false
+  xy: 244, 268
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+win_label
+  rotate: false
+  xy: 1132, 1665
+  size: 377, 67
+  orig: 377, 67
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,43 @@
+<conversation name="">
+    <resources>
+        <resource id="bad_face" path="images/faces/bad_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_face" path="images/faces/good_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_face" path="images/faces/neutral_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_reaction_face" path="images/faces/good_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="bad_reaction_face" path="images/faces/bad_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_reaction_face" path="images/faces/neutral_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+    </resources>
+
+    <characters>
+    </characters>
+
+    <trash-words>
+    </trash-words>
+
+    <branch name="start">
+        <answer id="you" timer="10">
+            <positive_words></positive_words>
+            <negative_words></negative_words>
+            <neutral_words></neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl"></msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer01"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl"></msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer01"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl"></msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer01"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+</conversation>

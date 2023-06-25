@@ -1,0 +1,169 @@
+<conversation name="intro">
+    <resources>
+        <resource id="bg" path="images/background/intro_bg.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="miya" path="images/characters/miya.png" type="com.badlogic.gdx.graphics.Texture"/>
+
+        <resource id="girl_texting" path="sound/girl_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+        <resource id="man_texting" path="sound/man_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+        <resource id="bad_face" path="images/faces/bad_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_face" path="images/faces/good_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_face" path="images/faces/neutral_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_reaction_face" path="images/faces/good_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="bad_reaction_face" path="images/faces/bad_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_reaction_face" path="images/faces/neutral_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+    </resources>
+
+    <characters>
+        <character id="girl" name="???" type="girl" font-color="#ff00fe" resource-id="miya" sound="girl_texting"/>
+        <character id="you" name="Вы" type="" font-color="#00edde" resource-id="" sound="man_texting"/>
+    </characters>
+
+    <trash-words>
+        хмм,умм,пфф,ммм,мда,эээ,пум-пум,*молчит*,уф,э,эм,хрм,*пук*,ха,фьють,хи,кря,*улыбается*,гав,ну,это
+    </trash-words>
+
+    <branch name="start">
+        <fade exitTime="0" exitType="fade" enterTime="2" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <bg id="bg" resource-id="bg"/>
+            <delay time="1"/>
+        </fade>
+
+        <position id="girl" x="800" y="0" depth="1"/>
+        <visibility id="girl" visible="true" fadeTime="1" wait="true"/>
+        <delay time="2"/>
+
+        <msg id="girl" wait="false">
+            Привет! Наконец-то ты пришел, я заждалась.
+        </msg>
+        <delay time="2"/>
+        <animation id="girl" animation="good_reaction"/>
+        <msg id="girl" wait="false">
+            Меня зовут Мия, рада познакомиться.
+        </msg>
+        <delay time="2"/>
+        <animation id="girl" animation="idle"/>
+        <name id="girl" name="Мия"/>
+        <msg id="girl" wait="false">
+            Слышала, что ты решил посетить 10 свиданий..Ну что ж я здесь, чтобы помочь тебе!
+        </msg>
+        <delay time="2"/>
+        <msg id="girl">
+            Для начала, чтобы перейти к следующей фразе - нажми на любую кнопку мыши или тапни по экрану. Давай, попробуй прямо сейчас!
+        </msg>
+        <animation id="girl" animation="good_reaction"/>
+        <msg id="girl">
+            Ты просто умница, у тебя прекрасно получается!
+        </msg>
+        <animation id="girl" animation="idle"/>
+        <msg id="girl">
+            Иногда девушки будут задавать тебе вопросы, чтобы поддержать беседу.
+        </msg>
+        <msg id="girl">
+            После вопроса появится облако слов, где тебе нужно выбрать подходящие.
+        </msg>
+        <msg id="girl">
+            Но помни, что время ограничено и нужно выбирать только те, которые подходят к заданному вопросу.
+        </msg>
+        <msg id="girl">
+            Давай попробуем! Расскажи, как тебе погода сегодня?
+        </msg>
+
+        <changebranch branch="answer01"/>
+    </branch>
+
+    <branch name="answer01">
+        <answer id="you" timer="10">
+            <positive_words>прекрасная,чудесная,классная</positive_words>
+            <negative_words>фигня,не нравится,душно,лучше дома,печаль,не знаю</negative_words>
+            <neutral_words>погода,погода?,кому?,где?</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Ну что за молодец! Прекрасный ответ.</msg>
+                <animation id="girl" animation="idle"/>
+                <changebranch branch="continue"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Как грубо! Ты так никогда не понравишься девушкам.</msg>
+                <animation id="girl" animation="idle"/>
+                <msg id="girl">Давай попробуем еще раз.</msg>
+                <changebranch branch="answer01"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Плохо, очень плохо..Я ничего не поняла.</msg>
+                <animation id="girl" animation="idle"/>
+                <msg id="girl">Давай попробуем еще раз.</msg>
+                <changebranch branch="answer01"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="continue">
+        <msg id="girl">
+            Ты прекрасно справляешься! Давай расскажу про еще одну важную деталь.
+        </msg>
+        <msg id="girl">
+            Каждая девушка индивидуальна и имеет свои уникальные интересы и хобби.
+        </msg>
+        <msg id="girl">
+            Перед встречей ты увидишь вот такой профиль девушки из приложения...
+        </msg>
+        <profile-show info="♥ комедии,♥ романтика,× грубости" fade-time="0.5"/>
+
+        <msg id="girl">
+            В нем указана информация о девушке, с которой ты идешь на свидание. Помни это и учитывай при разговоре с ней.
+        </msg>
+        <msg id="girl">
+            Это мой профиль. Обрати внимание, какие фильмы мне нравятся!
+        </msg>
+        <profile-hide fade-time="0.3"/>
+        <msg id="girl">
+            А теперь расскажи, какие фильмы нравятся тебе? Наши интересы должны совпасть.
+        </msg>
+        <changebranch branch="answer02"/>
+    </branch>
+
+    <branch name="answer02">
+        <answer id="you" timer="10">
+            <positive_words>комедии,смешные</positive_words>
+            <negative_words>фантастика,ужасы,триллеры,драмы,Покемоны,с Деппом</negative_words>
+            <neutral_words>кино?,кто?,фильмы</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Ого, и мне они тоже нравятся, что за совпадение?</msg>
+                <animation id="girl" animation="idle"/>
+                <changebranch branch="end"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Да нет же! Ты вообще читал мою анкету?</msg>
+                <animation id="girl" animation="idle"/>
+                <msg id="girl">Давай попробуем еще раз.</msg>
+                <changebranch branch="answer02"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Ничего не поняла...ты о чем?..</msg>
+                <animation id="girl" animation="idle"/>
+                <msg id="girl">Давай попробуем еще раз.</msg>
+                <changebranch branch="answer02"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="end">
+        <msg id="girl">
+            Ну что, кажется, теперь ты готов ко всему!
+        </msg>
+        <animation id="girl" animation="neutral_reaction"/>
+        <msg id="girl">
+            Удачи тебе, надеюсь ты найдешь ту самую...
+        </msg>
+        <hide/>
+        <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <end-menu text="Ты успешно прошел обучение, удачи на следующих свиданиях!" win="true"/>
+        </fade>
+    </branch>
+
+</conversation>

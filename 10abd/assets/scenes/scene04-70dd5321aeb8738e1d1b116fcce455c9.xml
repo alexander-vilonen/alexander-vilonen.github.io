@@ -1,0 +1,315 @@
+<conversation name="scene01">
+    <resources>
+        <resource id="bad_face" path="images/faces/bad_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_face" path="images/faces/good_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_face" path="images/faces/neutral_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_reaction_face" path="images/faces/good_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="bad_reaction_face" path="images/faces/bad_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_reaction_face" path="images/faces/neutral_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="girl_texting" path="sound/girl_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+        <resource id="man_texting" path="sound/man_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+
+        <resource id="bg" path="images/background/scene04_bg.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="girl_image" path="images/characters/z077.png" type="com.badlogic.gdx.graphics.Texture"/>
+    </resources>
+
+    <characters>
+        <character id="girl" name="???" type="girl" font-color="#ff00fe" resource-id="girl_image" sound="girl_texting"/>
+        <character id="you" name="Вы" type="" font-color="#00edde" resource-id="" sound="man_texting"/>
+    </characters>
+
+    <trash-words>хмм,умм,пфф,ммм,мда,эээ,пум-пум,*молчит*,уф,э,эм,хрм,*пук*,ха,фьють,хи,кря,*улыбается*,гав,ну,это</trash-words>
+
+    <branch name="start">
+        <fade exitTime="0" exitType="fade" enterTime="2" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <title fade-in="2" fade-out="1" show-time="2"/>
+            <bg id="bg" resource-id="bg"/>
+            <relationship id="girl" value="-40"/>
+            <delay time="1"/>
+        </fade>
+
+        <position id="girl" x="800" y="0" depth="1"/>
+        <profile-show info="× людей,× Землю,× всех людей" fade-time="0.5"/>
+        <delay time="2.5"/>
+        <profile-hide fade-time="0.5"/>
+        <delay time="0.5"/>
+
+        <visibility id="girl" visible="true" fadeTime="1" wait="true"/>
+        <delay time="1"/>
+        <msg id="girl">Здравствуй, человечишка!</msg>
+        <msg id="girl">Ты очень глуп, раз сам пришел ко мне!</msg>
+        <msg id="girl">Меня зовут Z077 и я высшая форма разума!</msg>
+        <name id="girl" name="Z077"/>
+
+        <changebranch branch="answer01"/>
+    </branch>
+
+    <branch name="answer01">
+        <msg id="girl">И это последние минуты твоей никчемной жизни!</msg>
+        <answer id="you" timer="10">
+            <positive_words>не нужно,5 минут,говорить,убедить</positive_words>
+            <negative_words>что?,плевать,не боюсь</negative_words>
+            <neutral_words>стой,погоди,дай,я</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Хорошо...я дам тебе шанс!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer02"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Да как ты смеешь?!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer02"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Говори внятней, блоха!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer02"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer02">
+        <msg id="girl">Мы прилетели сюда, чтобы уничтожить вашу планетку!</msg>
+        <msg id="girl">И ты точно не тот, кто сможет убедить нас в обратном!</msg>
+        <answer id="you" timer="10">
+            <positive_words>хорошие,добрые,умные,приветливые</positive_words>
+            <negative_words>сильнее,лучше,главные,уничтожим</negative_words>
+            <neutral_words>я,мы,люди,вас</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Это правильные слова...</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer03"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Хаха, я же говорила, что вам так и надо!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer03"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Опять бессвязные слова...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer03"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer03">
+        <msg id="girl">Для чего ты так защищаешь свою планету?!</msg>
+        <msg id="girl">Ты ведь даже не знаешь, какая по счету она от Солнца!</msg>
+        <answer id="you" timer="7">
+            <positive_words>третья</positive_words>
+            <negative_words>вторая,первая,планета?,Солнце?,сотая</negative_words>
+            <neutral_words>я,думаю</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Ты правда не так глуп, как я думала!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer04"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Я же говорила! Ты просто ничтожество!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer04"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Бе-ме, не мямли!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer04"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer04">
+        <msg id="girl">Возможно ваша планета не так плоха, как мне казалось ранее...</msg>
+        <msg id="girl">Но мне пока недостаточно аргументов, чтобы сохранить вам жизнь!</msg>
+        <msg id="girl">Расскажи мне, какие виды энергии вы используете?</msg>
+        <answer id="you" timer="10">
+            <positive_words>солнце,ветер,вода</positive_words>
+            <negative_words>нефть,газ,уран,уголь</negative_words>
+            <neutral_words>энергию,мы,используем</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Вы молодцы, это хороший выбор!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer05"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Что?! Вы уничтожаете планету своими руками!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer05"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Ты ужасно владеешь своим языком!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer05"/>
+            </neutral_answer>
+        </answer>
+
+    </branch>
+
+    <branch name="answer05">
+        <msg id="girl">Всё больше и больше аргументов в вашу пользу...</msg>
+        <msg id="girl">Но мне интересно, кто у вас самые известные личности на планете?</msg>
+        <answer id="you" timer="10">
+            <positive_words>Битлз,Гагарин,Эйнштейн,Конфуций,Эдисон</positive_words>
+            <negative_words>Моргенштерн,Влад А4,Хагги,Скибиди</negative_words>
+            <neutral_words>у нас,есть,это</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Да, я слышала про них...Достойные люди своей планеты!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer06"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Ха-ха, ты издеваешься?! Они никто в мировой истории!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer06"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Всё в одну кучу, я не получила ответ...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer06"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer06">
+        <msg id="girl">Мы нуждаемся в ресурсах, которые находятся здесь, иначе нашей планете скоро наступит конец...</msg>
+        <msg id="girl">И без них мы не улетим обратно, хотите ли вы этого или нет!</msg>
+        <answer id="you" timer="10">
+            <positive_words>вместе,исследовать,искать,изучать</positive_words>
+            <negative_words>нет,наше,не дадим,ищите,другие</negative_words>
+            <neutral_words>давай,мы,будем</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Мы никогда не работали вместе с другими цивилизациями.</msg>
+                <msg id="girl">Но твое предложение звучит интересно!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer07"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Как ты смеешь мне отказывать?!</msg>
+                <msg id="girl">Мы все равно заберем то, что нам нужно!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer07"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Снова бессвязный бред...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer07"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer07">
+        <msg id="girl">Кажется, что ваша планета может послужить домом и для нас...</msg>
+        <msg id="girl">Как думаешь, вы сможете принять весь наш народ?</msg>
+        <answer id="you" timer="10">
+            <positive_words>да,вместе,вместим,заживем</positive_words>
+            <negative_words>нет,сколько?,куда?,нет места,мало</negative_words>
+            <neutral_words>я,думаю,наверно,конечно</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Спасибо тебе, человек!</msg>
+                <msg id="girl">Очень приятно слышать это от тех, кого мы хотели уничтожить...</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer08"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Что?! Вы не можете отказать нам!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer08"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Это не ответ!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer08"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer08">
+        <msg id="girl">Совсем скоро я приму финальное решение по вашей планете...</msg>
+        <msg id="girl">Ты хочешь что-нибудь сказать напоследок?</msg>
+        <answer id="you" timer="10">
+            <positive_words>мир,дружить,вместе,друг</positive_words>
+            <negative_words>улетай,отсюда,вон,ничего</negative_words>
+            <neutral_words>я,хочу,сказать</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Это хорошие слова, человек!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="end"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Глупый человечишка, ты так ничего и не понял!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="end"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Лучше бы ты ничего не говорил...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="end"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="end">
+        <end entity-id="girl">
+            <win>
+                <msg id="girl">Спасибо за разговор, человек!</msg>
+                <msg id="girl">Мы не тронем вашу планету и вернемся с миром!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Планета спасена, вы остались друзьями с чужаками!" win="true"/>
+                </fade>
+            </win>
+            <lose>
+                <msg id="girl">Нет, ты не смог меня убедить!</msg>
+                <msg id="girl">Ваша планета будет уничтожена!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Планета уничтожена, тебе не удалось убедить её." win="false"/>
+                </fade>
+            </lose>
+            <neutral>
+                <msg id="girl">Я не вижу причин оставлять вас в живых...</msg>
+                <msg id="girl">Но мне нужно подумать...Я вернусь и приму решение позже!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Вы остались в живых...но надолго ли?" win="false"/>
+                </fade>
+            </neutral>
+        </end>
+    </branch>
+
+    <branch name="alt_end">
+        <msg id="girl">Ну всё, хватит разговоров!</msg>
+        <msg id="girl">Ты и вся ваша планета будет уничтожена!</msg>
+        <hide/>
+        <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <end-menu text="К сожалению, она уничтожила Землю, ты не смог её убедить в обратном..." win="false"/>
+        </fade>
+    </branch>
+</conversation>

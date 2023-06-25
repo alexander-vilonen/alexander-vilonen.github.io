@@ -1,0 +1,51 @@
+<scenes>
+    <scene>
+		<id>1</id>
+		<name>[*]МИЯ,18</name>
+		<image>miya_avatar</image>
+		<file>scenes/intro.xml</file>
+	</scene>
+
+	<scene>
+		<id>2</id>
+		<name>[*]КИКИ,16</name>
+		<image>kiki_avatar</image>
+		<file>scenes/scene01.xml</file>
+	</scene>
+
+	<scene>
+		<id>3</id>
+		<name>[*]САША,19</name>
+		<image>sasha_avatar</image>
+		<file>scenes/scene02.xml</file>
+	</scene>
+
+	<scene>
+		<id>4</id>
+		<name>[*]КРИСТИН,17</name>
+		<image>marina_avatar</image>
+		<file>scenes/scene03.xml</file>
+	</scene>
+
+	<scene>
+		<id>5</id>
+		<name>[*]Z077,234</name>
+		<image>z077_avatar</image>
+		<file>scenes/scene04.xml</file>
+	</scene>
+
+	<scene>
+		<id>6</id>
+		<name>[*]ПЕННИ,18</name>
+		<image>penni_avatar</image>
+		<file>scenes/scene05.xml</file>
+	</scene>
+
+	<scene>
+		<id>7</id>
+		<name>[*]СОНЯ,17</name>
+		<image>sonya_avatar</image>
+		<file>scenes/scene06.xml</file>
+	</scene>
+
+</scenes>

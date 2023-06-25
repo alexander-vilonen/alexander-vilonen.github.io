@@ -1,0 +1,195 @@
+
+menu.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+button_main
+  rotate: false
+  xy: 1227, 882
+  size: 263, 86
+  orig: 263, 86
+  offset: 0, 0
+  index: -1
+dotted_background
+  rotate: false
+  xy: 2, 1143
+  size: 1598, 896
+  orig: 1598, 896
+  offset: 0, 0
+  index: -1
+hearts
+  rotate: false
+  xy: 2, 52
+  size: 550, 499
+  orig: 550, 499
+  offset: 0, 0
+  index: -1
+invite_option
+  rotate: false
+  xy: 1309, 522
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+kiki_avatar
+  rotate: false
+  xy: 1239, 578
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+level_background
+  rotate: false
+  xy: 648, 821
+  size: 577, 158
+  orig: 577, 158
+  offset: 0, 0
+  index: -1
+level_blocked
+  rotate: false
+  xy: 648, 981
+  size: 579, 160
+  orig: 579, 160
+  offset: 0, 0
+  index: -1
+level_scroll
+  rotate: false
+  xy: 554, 460
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+level_select_button
+  rotate: false
+  xy: 2, 2
+  size: 158, 48
+  orig: 158, 48
+  offset: 0, 0
+  index: -1
+levels
+  rotate: false
+  xy: 2, 553
+  size: 644, 588
+  orig: 644, 588
+  offset: 0, 0
+  index: -1
+loading_popup
+  rotate: false
+  xy: 1229, 970
+  size: 241, 171
+  orig: 241, 171
+  offset: 0, 0
+  index: -1
+marina_avatar
+  rotate: false
+  xy: 1067, 669
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+menu_girl
+  rotate: false
+  xy: 1602, 1554
+  size: 397, 485
+  orig: 397, 485
+  offset: 0, 0
+  index: -1
+menu_numbers
+  rotate: false
+  xy: 1602, 1267
+  size: 373, 285
+  orig: 373, 285
+  offset: 0, 0
+  index: -1
+miya_avatar
+  rotate: false
+  xy: 1644, 1018
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+music_option
+  rotate: false
+  xy: 1411, 752
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+option_menu
+  rotate: false
+  xy: 1602, 1170
+  size: 389, 95
+  orig: 389, 95
+  offset: 0, 0
+  index: -1
+penni_avatar
+  rotate: false
+  xy: 1816, 1018
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+sasha_avatar
+  rotate: false
+  xy: 1067, 517
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+sonya_avatar
+  rotate: false
+  xy: 1472, 991
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+sound_option
+  rotate: false
+  xy: 1239, 522
+  size: 68, 54
+  orig: 68, 54
+  offset: 0, 0
+  index: -1
+status_break
+  rotate: false
+  xy: 554, 394
+  size: 86, 64
+  orig: 86, 64
+  offset: 0, 0
+  index: -1
+status_empty
+  rotate: false
+  xy: 2001, 1976
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+status_love
+  rotate: false
+  xy: 1411, 814
+  size: 75, 66
+  orig: 75, 66
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 648, 543
+  size: 417, 276
+  orig: 417, 276
+  offset: 0, 0
+  index: -1
+wishlist_option
+  rotate: false
+  xy: 554, 338
+  size: 64, 54
+  orig: 64, 54
+  offset: 0, 0
+  index: -1
+z077_avatar
+  rotate: false
+  xy: 1239, 730
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1

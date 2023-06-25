@@ -1,0 +1,319 @@
+<conversation name="">
+    <resources>
+        <resource id="bad_face" path="images/faces/bad_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_face" path="images/faces/good_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_face" path="images/faces/neutral_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="good_reaction_face" path="images/faces/good_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="bad_reaction_face" path="images/faces/bad_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="neutral_reaction_face" path="images/faces/neutral_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="girl_texting" path="sound/girl_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+        <resource id="man_texting" path="sound/man_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+
+        <resource id="bg" path="images/background/scene06_bg.png" type="com.badlogic.gdx.graphics.Texture"/>
+        <resource id="girl_image" path="images/characters/sonya.png" type="com.badlogic.gdx.graphics.Texture"/>
+    </resources>
+
+    <characters>
+        <character id="girl" name="Соня" type="girl" font-color="#ff00fe" resource-id="girl_image" sound="girl_texting"/>
+        <character id="you" name="Вы" type="" font-color="#00edde" resource-id="" sound="man_texting"/>
+    </characters>
+
+    <trash-words>хмм,умм,пфф,ммм,мда,эээ,пум-пум,*молчит*,уф,э,эм,хрм,*пук*,ха,фьють,хи,кря,*улыбается*,гав,ну,это</trash-words>
+
+    <branch name="start">
+        <fade exitTime="0" exitType="fade" enterTime="2" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <title fade-in="2" fade-out="1" show-time="2"/>
+            <bg id="bg" resource-id="bg"/>
+            <delay time="1"/>
+        </fade>
+
+        <position id="girl" x="800" y="0" depth="1"/>
+        <profile-show info="♥ умных,♥ образованных,× невеж" fade-time="0.5"/>
+        <delay time="2.5"/>
+        <profile-hide fade-time="0.5"/>
+        <delay time="0.5"/>
+
+        <visibility id="girl" visible="true" fadeTime="1" wait="true"/>
+        <delay time="1"/>
+        <msg id="girl">Здравствуйте, молодой человек.</msg>
+        <msg id="girl">Лишних слов говорить не буду...</msg>
+        <msg id="girl">Мне нравятся только умные и образованные мальчики.</msg>
+        <msg id="girl">Так что тебе придется пройти тест!</msg>
+
+        <changebranch branch="answer01"/>
+    </branch>
+
+    <branch name="answer01">
+        <msg id="girl">Итак начнем с простого, вопрос номер один...</msg>
+        <msg id="girl">Сколько месяцев в году имеют 28 дней?</msg>
+        <answer id="you" timer="7">
+            <positive_words>все,12</positive_words>
+            <negative_words>один,февраль,четыре,шесть,нет</negative_words>
+            <neutral_words>думаю,наверно</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Правильный ответ! Ты мне уже начинаешь нравится!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer02"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Ха-ха, ты такой дурачок!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer02"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Это не ответ!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer02"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer02">
+        <msg id="girl">Идем дальше...А теперь скажи мне</msg>
+        <msg id="girl">Маленький, серенький на слона похож. Кто это?</msg>
+        <answer id="you" timer="7">
+            <positive_words>слоненок</positive_words>
+            <negative_words>котенок,кран,нос,Моргенштерн</negative_words>
+            <neutral_words>это,думаю,наверно</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Верно! И вы получаете ааааавт...</msg>
+                <msg id="girl">Получаете следующий вопрос конечно!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer03"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Неверно! Как можно этого не знать!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer03"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Я не поняла, что ты говоришь...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer03"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer03">
+        <msg id="girl">А теперь ответь мне...</msg>
+        <msg id="girl">Сколько будет 3+3*3?</msg>
+        <answer id="you" timer="5">
+            <positive_words>12</positive_words>
+            <negative_words>18,3,8,16,0</negative_words>
+            <neutral_words>думаю,будет</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Это правильно! Умница!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer04"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Ты даже этого не знаешь?!</msg>
+                <msg id="girl">Как ты вообще живешь на свете?</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer04"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Я просто промолчу...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer04"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer04">
+        <msg id="girl">Я надеюсь ты еще не устал?</msg>
+        <msg id="girl">Потому что я только вхожу во вкус!</msg>
+        <msg id="girl">Следующий вопрос - что не имеет длины, глубины, ширины, высоты, а можно измерить?</msg>
+        <answer id="you" timer="7">
+            <positive_words>температура,время</positive_words>
+            <negative_words>расстояние,длина,чего?,ничего,рост</negative_words>
+            <neutral_words>думаю,это</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Это что за Эйнштейн пришел ко мне на свидание?</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer05"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Нет, нет и еще раз нет!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer05"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Отвечай на вопросы, а не говори слова невпопад!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer05"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer05">
+        <msg id="girl">А вот сейчас мой любимый вопрос!</msg>
+        <msg id="girl">У меня есть брат Женя, мама Наташа Игоревна и папа Андрей Александрович. Какое отчество у меня?</msg>
+        <answer id="you" timer="7">
+            <positive_words>Андреевна</positive_words>
+            <negative_words>Игоревна,Евгеньевна,Соня,Александровна</negative_words>
+            <neutral_words>это,думаю</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Всё верно! Вот это у тебя мозг конечно!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer06"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Тебе кажется лечиться нужно...</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer06"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Можешь не отвечать...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer06"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer06">
+        <msg id="girl">Ладно, думаю достаточно с тебя вопросов...</msg>
+        <msg id="girl">Пришло время фактов!</msg>
+        <msg id="girl">Кто был первым президентом России?</msg>
+        <answer id="you" timer="7">
+            <positive_words>Ельцин,Борис</positive_words>
+            <negative_words>Путин,Мэддисон,Ленин,Андропов</negative_words>
+            <neutral_words>думаю,это,был</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Молодец, всё так! Даже в этим вопросах ты разбираешься!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer07"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Мда, не знать такого...позор!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer07"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Так и скажи, что ты не знаешь, зачем выдумывать?!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer07"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer07">
+        <msg id="girl">Следующий факт...или вопрос...</msg>
+        <msg id="girl">Какая самая сильная мышца в человеческом теле?</msg>
+        <answer id="you" timer="7">
+            <positive_words>язык</positive_words>
+            <negative_words>бицепс,голова,трицепс,ягодичная,пальцевая</negative_words>
+            <neutral_words>думаю,наверно,это</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Верно, верно, верно! Ты умница!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="answer08"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Ха-ха, как можно так глупо отвечать?!</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="answer08"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Отвечай, знаешь или не знаешь?!</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="answer08"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="answer08">
+        <msg id="girl">Надеюсь я не замучала тебя своими вопросами...</msg>
+        <msg id="girl">Мне это очень важно...</msg>
+        <answer id="you" timer="10">
+            <positive_words>хорошо,рад,люблю,нравится</positive_words>
+            <negative_words>устал,достала,хватит,скучно</negative_words>
+            <neutral_words>всё,я</neutral_words>
+            <positive_answer>
+                <animation id="girl" animation="good_reaction"/>
+                <msg id="girl">Спасибо, я рада, что ты понимаешь меня!</msg>
+                <relationship id="girl" value="10"/>
+                <changebranch branch="end"/>
+            </positive_answer>
+            <negative_answer>
+                <animation id="girl" animation="bad_reaction"/>
+                <msg id="girl">Что можно было ожидать от такого невежи, как ты?</msg>
+                <relationship id="girl" value="-10"/>
+                <changebranch branch="end"/>
+            </negative_answer>
+            <neutral_answer>
+                <animation id="girl" animation="neutral_reaction"/>
+                <msg id="girl">Я другого и не ожидала, если честно...</msg>
+                <relationship id="girl" value="-5"/>
+                <changebranch branch="end"/>
+            </neutral_answer>
+        </answer>
+    </branch>
+
+    <branch name="end">
+        <end entity-id="girl">
+            <win>
+                <msg id="girl">Знаешь, я очень давно не общалась с таким образованным и умным мальчиком...</msg>
+                <msg id="girl">Я очень надеюсь, что наши беседы продолжатся...</msg>
+                <msg id="girl">Позвони мне!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Ты ей очень приглянулся и она надеется на продолжение ваших отношений." win="true"/>
+                </fade>
+            </win>
+            <lose>
+                <msg id="girl">Нет, дружок, кажется я не та, кого ты ищешь!</msg>
+                <msg id="girl">Я бы хотела, чтобы мне было с кем поговорить на разные темы...</msg>
+                <msg id="girl">А ты просто болванчик, прощай!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Вам не удалось блеснуть умом перед ней, свидание завершилось неудачно." win="false"/>
+                </fade>
+            </lose>
+            <neutral>
+                <msg id="girl">Ты был неплох, честно...</msg>
+                <msg id="girl">Но ты слишком ординарный, слишком обычный и простой...</msg>
+                <msg id="girl">Может быть увидимся, но не скоро, прощай!</msg>
+                <delay time="0.5"/>
+                <hide/>
+                <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+                    <end-menu text="Она не впечатлена твоими способностями, постарайся быть оригинальней!" win="false"/>
+                </fade>
+            </neutral>
+        </end>
+    </branch>
+
+    <branch name="alt_end">
+        <msg id="girl">Так, стоп!</msg>
+        <msg id="girl">Я даже разговаривать с таким тупицей, как ты, не хочу!</msg>
+        <msg id="girl">Всё, пока! Иди книжки читай!</msg>
+        <hide/>
+        <fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+            <end-menu text="Она ушла...может действительно стоит последовать её советам?" win="false"/>
+        </fade>
+    </branch>
+
+</conversation>

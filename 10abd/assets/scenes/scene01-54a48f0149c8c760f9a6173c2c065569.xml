@@ -1,0 +1,349 @@
+<conversation name="scene01">
+	<resources>
+		<resource id="bad_face" path="images/faces/bad_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="good_face" path="images/faces/good_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="neutral_face" path="images/faces/neutral_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="good_reaction_face" path="images/faces/good_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="bad_reaction_face" path="images/faces/bad_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="neutral_reaction_face" path="images/faces/neutral_reaction_face.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="girl_texting" path="sound/girl_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+		<resource id="man_texting" path="sound/man_texting.mp3" type="com.badlogic.gdx.audio.Sound"/>
+
+		<resource id="bg" path="images/background/park_small_blurred.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="bg2" path="images/background/scene01_home.png" type="com.badlogic.gdx.graphics.Texture"/>
+		<resource id="girl_image" path="images/characters/kiki.png" type="com.badlogic.gdx.graphics.Texture"/>
+	</resources>
+
+	<characters>
+		<character id="girl" name="???" type="girl" font-color="#ff00fe" resource-id="girl_image" sound="girl_texting"/>
+		<character id="you" name="Вы" type="" font-color="#00edde" resource-id="" sound="man_texting"/>
+	</characters>
+
+	<trash-words>хмм,умм,пфф,ммм,мда,эээ,пум-пум,*молчит*,уф,э,эм,хрм,*пук*,ха,фьють,хи,кря,*улыбается*,гав,ну,это</trash-words>
+
+	<branch name="start">
+		<fade exitTime="0" exitType="fade" enterTime="2" enterType="linear" color="BASE_BACKGROUND" wait="true">
+			<title fade-in="2" fade-out="1" show-time="2"/>
+			<bg id="bg" resource-id="bg"/>
+			<delay time="1"/>
+		</fade>
+
+		<position id="girl" x="800" y="0" depth="1"/>
+		<profile-show info="♥ романтика,♥ фантастика,× собак" fade-time="0.5"/>
+		<delay time="2.5"/>
+		<profile-hide fade-time="0.5"/>
+		<delay time="0.5"/>
+
+		<visibility id="girl" visible="true" fadeTime="1" wait="true"/>
+		<delay time="1"/>
+		<animation id="girl" animation="good_reaction"/>
+		<msg id="girl">
+			О, привет! Очень рада встретиться с тобой.
+		</msg>
+		<animation id="girl" animation="idle"/>
+		<msg id="girl">
+			Меня зовут Кики, приятно познакомиться.
+		</msg>
+		<name id="girl" name="Кики"/>
+
+		<changebranch branch="answer01"/>
+	</branch>
+
+	<branch name="answer01">
+		<msg id="girl">Знаешь, я немного нервничаю из-за нашей встречи...</msg>
+		<msg id="girl">Расскажи сначала немного о себе?</msg>
+		<answer id="you" timer="10">
+			<positive_words>животных,кошек,гитару,фильмы,гулять</positive_words>
+			<negative_words>собак,комедии,че?,не знаю,красоток</negative_words>
+			<neutral_words>я,люблю,смотреть</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Ой, это так классно, мне тоже это нравится!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer02"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Фу, мне не нравится это!</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer02"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Странный ты конечно, я ничего не поняла...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer02"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer02">
+		<msg id="girl">Ты выбрал очень интересное место для встречи!</msg>
+		<msg id="girl">Почему именно оно?</msg>
+		<answer id="you" timer="10">
+			<positive_words>чудесный,встретились,мои родители</positive_words>
+			<negative_words>водятся,маньяки,страшный,опасный,имени,Ленина,Ильича</negative_words>
+			<neutral_words>это,парк,рядом,с городом,тут</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Ого, мне тоже нравится это место!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer03"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Зачем ты позвал меня сюда?!</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer03"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Странное место...Странный ты...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer03"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer03">
+		<msg id="girl">Знаешь, я тут прочитала недавно загадку в журнале.</msg>
+		<msg id="girl">Давай проверим тебя! Вот слушай...</msg>
+		<msg id="girl">Одно яйцо варится 3 минуты. Сколько будут варится 2 яйца?</msg>
+		<answer id="you" timer="7">
+			<positive_words>3 минуты</positive_words>
+			<negative_words>6 минут,10 минут,полчаса,сколько?,не понимаю</negative_words>
+			<neutral_words>яйца,яйца?,зачем,кто варит?</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Какой же ты молодец! Просто чудо!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer04"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Нет же! Ты что, глупый?</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer04"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Да уж, загадки не твой конёк..</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer04"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer04">
+		<msg id="girl">Я так люблю смотреть фильмы!</msg>
+		<msg id="girl">Расскажи подробнее, какой твой любимый фильм?</msg>
+		<answer id="you" timer="10">
+			<positive_words>Назад в будущее,вся фантастика,Стартрек,Интерстеллар</positive_words>
+			<negative_words>посмеяться,комедии,не знаю,боевики,Каха в кино</negative_words>
+			<neutral_words>мне,нравится</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Я тоже это обожаю! Вот прямо сейчас бы пересмотрела в десятый раз!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer05"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">А мне он не нравится...</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer05"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Да уж, от тебя сложно добится ответов...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer05"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer05">
+		<msg id="girl">Следующий вопрос может быть немного странным...</msg>
+		<msg id="girl">Но ты никогда не задумывался, кем бы мы могли быть в прошлой жизни?</msg>
+		<msg id="girl">Как думаешь, кем бы ты был?</msg>
+		<answer id="you" timer="10">
+			<positive_words>тигром,кошкой,пантерой</positive_words>
+			<negative_words>собакой,человеком,никем,волком,ауфф</negative_words>
+			<neutral_words>я,был бы</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Хаха, это очень мило, так бы и почесала тебе за ушком!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer06"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Фууу, это немного мерзко, я бы так не хотела.</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer06"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Мда, мог бы и не отвечать...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer06"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer06">
+		<msg id="girl">Сегодня так жарко...на солнце можно сгореть до углей!</msg>
+		<msg id="girl">Хочется чем-нибудь охладиться...</msg>
+		<answer id="you" timer="10">
+			<positive_words>мороженку,воды</positive_words>
+			<negative_words>чай,кофе,пирожок,шаварму,вроде нет,нормально</negative_words>
+			<neutral_words>может,давай</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Отличная идея, это то что нужно!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer07"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Нет, я же сказала, что мне жарко!</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer07"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Говори внятнее, я не понимаю тебя...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer07"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer07">
+		<msg id="girl">Надо кому-то сходить в магазин...</msg>
+		<msg id="girl">Давай на камень/ножницы/бумага, кто идет!</msg>
+		<answer id="you" timer="5">
+			<positive_words>*ножницы*</positive_words>
+			<negative_words>*бумага*,*камень*</negative_words>
+			<neutral_words>3..2..1,что делать?,*спок*</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">*бумага*...Эх, ты победил! Придется идти мне.</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer08"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Хаха, я победила, давай, беги в магазин!</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer08"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Ты вообще умеешь играть? Ладно, схожу сама...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer08"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer08">
+		<msg id="girl">Мы с тобой хорошо погуляли...</msg>
+		<msg id="girl">Но уже поздно, мне нужно идти домой.</msg>
+		<answer id="you" timer="10">
+			<positive_words>провожу,пойдем,с тобой</positive_words>
+			<negative_words>пока,иди,куда?,топай</negative_words>
+			<neutral_words>я,давай</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Это очень мило, спасибо!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="answer09"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Ты хочешь меня одну отпустить домой так поздно?!</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="answer09"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Просто проводи меня...</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="answer09"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="answer09">
+		<hide/>
+		<fade exitTime="2" exitType="fade" enterTime="2" enterType="linear" color="BASE_BACKGROUND" wait="true">
+			<bg id="bg2" resource-id="bg2"/>
+		</fade>
+
+		<msg id="girl">Вот и мой дом...</msg>
+		<msg id="girl">Спасибо за встречу, как тебе она?</msg>
+		<answer id="you" timer="10">
+			<positive_words>классно,лучшая,хорошо,приятно</positive_words>
+			<negative_words>встреча?,ну так,норм,с кем?</negative_words>
+			<neutral_words>мне,я,ты</neutral_words>
+			<positive_answer>
+				<animation id="girl" animation="good_reaction"/>
+				<msg id="girl">Я очень рада, что тебе понравилось!</msg>
+				<relationship id="girl" value="10"/>
+				<changebranch branch="end"/>
+			</positive_answer>
+			<negative_answer>
+				<animation id="girl" animation="bad_reaction"/>
+				<msg id="girl">Ну и ладно...</msg>
+				<relationship id="girl" value="-10"/>
+				<changebranch branch="end"/>
+			</negative_answer>
+			<neutral_answer>
+				<animation id="girl" animation="neutral_reaction"/>
+				<msg id="girl">Что? Что ты говоришь?</msg>
+				<relationship id="girl" value="-5"/>
+				<changebranch branch="end"/>
+			</neutral_answer>
+		</answer>
+	</branch>
+
+	<branch name="end">
+		<end entity-id="girl">
+			<win>
+				<msg id="girl">Надеюсь это наша не последняя встреча, ты мне понравился, пока.</msg>
+				<delay time="0.5"/>
+				<hide/>
+				<fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+					<end-menu text="Кажется, ты ей очень понравился, это победа!" win="true"/>
+				</fade>
+			</win>
+			<lose>
+				<msg id="girl">Надеюсь мы больше не увидимся, прощай!</msg>
+				<delay time="0.5"/>
+				<hide/>
+				<fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+					<end-menu text="Свидание прошло ужасно, кажется это ваша последняя встреча..." win="false"/>
+				</fade>
+			</lose>
+			<neutral>
+				<msg id="girl">У меня смешанные чувства о нашей встрече...</msg>
+				<msg id="girl">Я подумаю, стоит ли нам встречаться еще раз.</msg>
+				<delay time="0.5"/>
+				<hide/>
+				<fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+					<end-menu text="Скорее всего тебе не перезвонят, ты был недостаточно хорош..." win="false"/>
+				</fade>
+			</neutral>
+		</end>
+	</branch>
+
+	<branch name="alt_end">
+		<msg id="girl">Ой, кажется мне срочно нужно уйти...</msg>
+		<msg id="girl">У меня...я совсем забыла...у меня сейчас экзамен! Пока!</msg>
+		<hide/>
+		<fade exitTime="2" exitType="fade" enterTime="0" enterType="linear" color="BASE_BACKGROUND" wait="true">
+			<end-menu text="Кики сбежала со свидания, кажется ты ей не понравился..." win="false"/>
+		</fade>
+	</branch>
+</conversation>
