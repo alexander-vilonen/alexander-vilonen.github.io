@@ -1,0 +1,45 @@
+pack.png
+	size: 2048, 2048
+	filter: Linear, Linear
+add panel
+	bounds: 1271, 1417, 214, 113
+button
+	bounds: 1, 448, 280, 250
+button_back
+	bounds: 989, 1280, 280, 250
+circle
+	bounds: 1, 1, 51, 51
+cursor
+	bounds: 989, 1252, 90, 26
+digit
+	bounds: 283, 376, 150, 150
+digital7mono
+	bounds: 989, 1532, 1024, 512
+expression
+	bounds: 460, 548, 150, 150
+hint
+	bounds: 1487, 1435, 155, 95
+ico_exit
+	bounds: 1644, 1418, 112, 112
+impact
+	bounds: 1, 700, 1024, 512
+invite
+	bounds: 612, 552, 152, 146
+light
+	bounds: 283, 225, 135, 149
+option
+	bounds: 283, 528, 175, 170
+panel
+	bounds: 1, 1214, 986, 830
+placeholder
+	bounds: 1, 196, 280, 250
+play
+	bounds: 169, 69, 122, 125
+replay
+	bounds: 910, 554, 123, 144
+share
+	bounds: 766, 556, 142, 142
+sound
+	bounds: 1271, 1292, 157, 123
+wishlist
+	bounds: 1, 54, 166, 140

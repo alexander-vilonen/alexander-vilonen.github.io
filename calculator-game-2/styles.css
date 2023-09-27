@@ -4,7 +4,8 @@ canvas {
 }
 
 body {
-    background-color: #E8DDD0;
+    background-color: #e0ebfc;
+    -webkit-touch-callout: none;
 }
 
 p {
