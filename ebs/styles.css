@@ -1,0 +1,19 @@
+canvas {
+    cursor: default;
+    outline: none;
+}
+
+body {
+    background-color: #3d3d3e;
+    -webkit-touch-callout: none;
+}
+
+p {
+    text-align: center;
+    color: #eeeeee;
+}
+
+a {
+    text-align: center;
+    color: #bbbbff;
+}
