@@ -5,6 +5,7 @@ canvas {
 
 body {
     background-color: #e0ebfc;
+    -webkit-touch-callout: none;
 }
 
 p {
