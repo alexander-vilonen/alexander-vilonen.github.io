@@ -8,8 +8,8 @@ b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-681466b8fa874a40c
 b:i18n/MessageResources_ru.properties.bak:i18n/MessageResources_ru.properties-a29dab66ea0b0095e9afdd3123467c0a.bak:296:application/unknown:1
 b:i18n/MessageResources_tr.properties:i18n/MessageResources_tr-81549e2ea742ff686c638e9af3249eee.properties:170:application/unknown:1
 d:img:img:0:application/unknown:1
-t:img/game.atlas:img/game-394f7b676f2ef35408c06d49045c116e.atlas:4379:application/unknown:1
-i:img/game.png:img/game-2b2e8281f0ad3c88361959a923af31ac.png:881305:image/png:1
+t:img/game.atlas:img/game-176ce46cb2eb5d84d6ebd87f38d3de55.atlas:4586:application/unknown:1
+i:img/game.png:img/game-2027c69856724d81f3604a2f7df2637b.png:896618:image/png:1
 d:music:music:0:application/unknown:1
 a:music/sameColor.mp3:music/sameColor-dafca550094b9965379a0002015dfd7f.mp3:6625:audio/mpeg:1
 a:music/sound_merge.mp3:music/sound_merge-85b39440c1fba91026f7cc8cf3873b7e.mp3:11686:audio/mpeg:1

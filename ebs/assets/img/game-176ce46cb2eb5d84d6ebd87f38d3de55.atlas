@@ -13,7 +13,7 @@ CascadiaMono-standard
   index: -1
 btnMusicOff
   rotate: false
-  xy: 1255, 314
+  xy: 1448, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -25,9 +25,16 @@ btnMusicOn
   orig: 100, 100
   offset: 0, 0
   index: -1
+btnShare
+  rotate: false
+  xy: 2684, 3283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 btnSortAdUn
   rotate: false
-  xy: 3975, 3992
+  xy: 1255, 314
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,7 +48,14 @@ btnSortReplay
   index: -1
 btnSortUndo
   rotate: false
-  xy: 1448, 740
+  xy: 1867, 1086
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+btnWishlist
+  rotate: false
+  xy: 3975, 3992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -55,21 +69,21 @@ buttonBg
   index: -1
 circle100px
   rotate: false
-  xy: 1867, 1086
+  xy: 2224, 3126
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 circle80px
   rotate: false
-  xy: 2684, 3303
+  xy: 3146, 3523
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 circle_86px
   rotate: false
-  xy: 2224, 3140
+  xy: 1973, 1464
   size: 86, 86
   orig: 86, 86
   offset: 0, 0
@@ -118,7 +132,7 @@ itemBtnBg
   index: -1
 num_L_0
   rotate: false
-  xy: 1973, 1485
+  xy: 3248, 3640
   size: 51, 65
   orig: 51, 65
   offset: 0, 0
@@ -132,14 +146,14 @@ num_L_1
   index: -1
 num_L_2
   rotate: false
-  xy: 1255, 248
+  xy: 1448, 674
   size: 45, 64
   orig: 45, 64
   offset: 0, 0
   index: -1
 num_L_3
   rotate: false
-  xy: 3550, 3760
+  xy: 1255, 245
   size: 46, 67
   orig: 46, 67
   offset: 0, 0
@@ -153,21 +167,21 @@ num_L_4
   index: -1
 num_L_5
   rotate: false
-  xy: 3975, 3925
+  xy: 1357, 349
   size: 46, 65
   orig: 46, 65
   offset: 0, 0
   index: -1
 num_L_6
   rotate: false
-  xy: 3248, 3638
+  xy: 3975, 3923
   size: 47, 67
   orig: 47, 67
   offset: 0, 0
   index: -1
 num_L_7
   rotate: false
-  xy: 1357, 350
+  xy: 1550, 776
   size: 43, 64
   orig: 43, 64
   offset: 0, 0
@@ -181,7 +195,7 @@ num_L_8
   index: -1
 num_L_9
   rotate: false
-  xy: 3146, 3536
+  xy: 3550, 3760
   size: 47, 67
   orig: 47, 67
   offset: 0, 0
