@@ -2,11 +2,11 @@ d:assets:assets:0:application/unknown:1
 d:font:font:0:application/unknown:1
 t:font/CascadiaMono-standard.fnt:font/CascadiaMono-standard-d93da2fff96c21ef1a3db4d5279bdbd2.fnt:115547:application/unknown:1
 d:i18n:i18n:0:application/unknown:1
-b:i18n/MessageResources.properties:i18n/MessageResources-6cb0759d63f2a65e285f7b2a645c997d.properties:168:application/unknown:1
-b:i18n/MessageResources_en.properties:i18n/MessageResources_en-6cb0759d63f2a65e285f7b2a645c997d.properties:168:application/unknown:1
-b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-681466b8fa874a40cf2ea43500795c79.properties:296:application/unknown:1
-b:i18n/MessageResources_ru.properties.bak:i18n/MessageResources_ru.properties-a29dab66ea0b0095e9afdd3123467c0a.bak:296:application/unknown:1
-b:i18n/MessageResources_tr.properties:i18n/MessageResources_tr-81549e2ea742ff686c638e9af3249eee.properties:170:application/unknown:1
+b:i18n/MessageResources.properties:i18n/MessageResources-a06022330aa8a27d44034d82cab0ab8f.properties:180:application/unknown:1
+b:i18n/MessageResources_en.properties:i18n/MessageResources_en-a06022330aa8a27d44034d82cab0ab8f.properties:180:application/unknown:1
+b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-038e22b1c7a04d0d800fb66fee883e36.properties:316:application/unknown:1
+b:i18n/MessageResources_ru.properties.bak:i18n/MessageResources_ru.properties-681466b8fa874a40cf2ea43500795c79.bak:296:application/unknown:1
+b:i18n/MessageResources_tr.properties:i18n/MessageResources_tr-44d6678915b09ab62d787c6d68a28a6d.properties:182:application/unknown:1
 d:img:img:0:application/unknown:1
 t:img/game.atlas:img/game-176ce46cb2eb5d84d6ebd87f38d3de55.atlas:4586:application/unknown:1
 i:img/game.png:img/game-2027c69856724d81f3604a2f7df2637b.png:896618:image/png:1
