@@ -1,7 +1,7 @@
 d:assets:assets:0:application/unknown:1
 d:atlas:atlas:0:application/unknown:1
-t:atlas/default.atlas:atlas/default-9e8bdd60fa809ef32809dad19ff1f049.atlas:658:application/unknown:1
-i:atlas/default.png:atlas/default-639e78a838fba76dead1f6a79c574e63.png:184312:image/png:1
+t:atlas/default.atlas:atlas/default-64a040b93eafb597da421eb240d08793.atlas:717:application/unknown:1
+i:atlas/default.png:atlas/default-221c0eb3bc439d21976e480a01ed8090.png:187340:image/png:1
 d:font:font:0:application/unknown:1
 t:font/clock.fnt:font/clock-ab6f7b3b6ef1d40e0c69d3879eb03b19.fnt:1721:application/unknown:1
 t:font/font.fnt:font/font-e7269757d73508ac1a1a18b1e5d6139c.fnt:26099:application/unknown:1
