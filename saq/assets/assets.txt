@@ -1,8 +1,8 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-5c16a8eaba3c1d683accba38f5659f59.txt:1586:text/plain:1
+t:assets.txt:assets-99df0d78b23fdba38992f506f0a5df98.txt:1626:text/plain:1
 d:atlas:atlas:0:application/unknown:1
-t:atlas/default.atlas:atlas/default-1af0255a569e635eaff649d80dcbdeb3.atlas:948:application/unknown:1
-i:atlas/default.png:atlas/default-c98dc9d725d2c93c57ae9a2759c80bd0.png:301527:image/png:1
+t:atlas/default.atlas:atlas/default-bceaac510e1ca49768dec77a2b0cfc6f.atlas:1260:application/unknown:1
+i:atlas/default.png:atlas/default-1dc0ee635dda34360450b0b6506faa82.png:1034962:image/png:1
 d:audio:audio:0:application/unknown:1
 a:audio/click.mp3:audio/click-5f4399a5e66f79166bdf4fd72f2bb03e.mp3:12258:audio/mpeg:1
 a:audio/error.mp3:audio/error-52b7351af6157322cf6b06d49e1cd611.mp3:14520:audio/mpeg:1
@@ -13,9 +13,10 @@ d:fonts:fonts:0:application/unknown:1
 t:fonts/largeFont.fnt:fonts/largeFont-e87434d0f46686e25b2f1372bbd411b1.fnt:279163:application/unknown:1
 t:fonts/smallFont.fnt:fonts/smallFont-3710860110572c4804b96168f80a39f0.fnt:238029:application/unknown:1
 d:i18n:i18n:0:application/unknown:1
-b:i18n/MessageResources.properties:i18n/MessageResources-055fc2840765048da229cc37e9a93234.properties:11919:application/unknown:1
+b:i18n/MessageResources.properties:i18n/MessageResources-084ece2694cba900d5eb364ff5769422.properties:12181:application/unknown:1
 b:i18n/MessageResources_en.properties:i18n/MessageResources_en-d41d8cd98f00b204e9800998ecf8427e.properties:0:application/unknown:1
-b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-38f6f1061e9b320a86c21deb087a8d7d.properties:17550:application/unknown:1
+b:i18n/MessageResources_ru.properties:i18n/MessageResources_ru-3155f9e5ad94fc0daf268c1a45df3230.properties:17928:application/unknown:1
+b:i18n/MessageResources_ru.properties.bak:i18n/MessageResources_ru.properties-8a79a7148b1316b707f3758bb126652e.bak:17963:application/unknown:1
 b:i18n/MessageResources_tr.properties:i18n/MessageResources_tr-d41d8cd98f00b204e9800998ecf8427e.properties:0:application/unknown:1
 d:levels:levels:0:application/unknown:1
 t:levels/levels.xml:levels/levels-6aee2e1b0479f9d512f14d387043303d.xml:30339:application/xml:1

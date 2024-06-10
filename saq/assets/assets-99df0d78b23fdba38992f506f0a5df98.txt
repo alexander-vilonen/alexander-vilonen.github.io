@@ -10,6 +10,7 @@ fonts/smallFont.fnt
 i18n/MessageResources.properties
 i18n/MessageResources_en.properties
 i18n/MessageResources_ru.properties
+i18n/MessageResources_ru.properties.bak
 i18n/MessageResources_tr.properties
 levels/levels.xml
 shaders/bgGradient.vert
