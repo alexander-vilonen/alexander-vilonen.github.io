@@ -1,7 +1,7 @@
 d:assets:assets:0:application/unknown:1
 d:atlas:atlas:0:application/unknown:1
-t:atlas/default.atlas:atlas/default-42ae02971d4d5a2ca52257d7e327ebeb.atlas:5661:application/unknown:1
-i:atlas/default.png:atlas/default-8d5c6664527f5cf75e7071c99cec5898.png:1814037:image/png:1
+t:atlas/default.atlas:atlas/default-9f7bb94ab5bc6223906e8c16935ae558.atlas:5181:application/unknown:1
+i:atlas/default.png:atlas/default-fcf90b4c8fad17bf5f3a1de2bdef4d90.png:1556560:image/png:1
 d:fonts:fonts:0:application/unknown:1
 t:fonts/smallFont.fnt:fonts/smallFont-3710860110572c4804b96168f80a39f0.fnt:238029:application/unknown:1
 d:i18n:i18n:0:application/unknown:1
